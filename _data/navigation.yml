@@ -3,9 +3,6 @@ main:
   - title: "About"
     url: /about/
 
-  - title: "CV"
-    url: /cv/
-
   - title: "Publications"
     url: /publications/
 
@@ -14,7 +11,7 @@ main:
 
   - title: "Press"
     url: /press/
-    
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
