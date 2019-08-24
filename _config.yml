@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Gal Oren"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/galoren.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Personal Academic Website"
   location         : "Israel"
   email            :
