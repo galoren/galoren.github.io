@@ -1,16 +1,16 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
-
-  - title: "Awards"
-    url: /awards/
-
-  - title: "Press"
-    url: /press/
-
-  - title: "Publications"
-    url: /publications/
+  # - title: "About"
+  #   url: /about/
+  #
+  # - title: "Awards"
+  #   url: /awards/
+  #
+  # - title: "Press"
+  #   url: /press/
+  #
+  # - title: "Publications"
+  #   url: /publications/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
