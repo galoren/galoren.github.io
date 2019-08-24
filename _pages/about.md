@@ -2,7 +2,7 @@
 layout: home
 permalink: /about/
 header:
-  image: "/images/brain.png"
+  image: "/images/hpc.jpeg"
 ---
 
 My name is Gal Oren
