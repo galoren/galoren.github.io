@@ -1,5 +1,5 @@
 ---
-layout: home
+title: "About"
 permalink: /about/
 header:
   image: "/images/hpc.jpeg"
