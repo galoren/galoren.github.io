@@ -325,3 +325,5 @@ scholar:
   details_link:   Details
 
   query: "@*"
+
+plugins_dir: [jekyll-scholar]
