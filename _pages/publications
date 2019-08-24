@@ -1,15 +1,11 @@
 ---
 layout: page
 title: "Publications"
-permalink: /publications/
-header:
-  image: "/images/hpc.jpeg"
+date: 2013-04-08
+excerpt:
+share: false
 ---
 
 ### 2019
 
 {% bibliography --query @*[year=2019] %}
-
-### 2018
-
-{% bibliography --query @*[year=2018] %}
