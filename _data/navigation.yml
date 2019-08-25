@@ -1,6 +1,9 @@
 # main links
 main:
 
+  - title: "Education & Work"
+    url: /eduwork/
+
   - title: "Publications"
     url: /publications/
 
