@@ -42,7 +42,7 @@ header:
 * Eyal Shalev, Vladimir Lyakhovsky, Gal Oren, Harel Levin, Stephen J. Bauer, **Damage Accumulation and Wellbore Stability**, _The American Geophysical Union Conference (AGU'18)_
 [Download paper here](http://galoren.github.io/files/agu18.pdf)
 
-Idan Mosseri, Re'em Harel, Harel Levin, Matan Rusanovsky, Gal Oren, **Automatic Parallelization for Shared Memory Scientific Multiprocessing (Presentation & Poster)**, _OpenMPCon Developers Conference (OpenMPCon'18), The 14th International Workshop on OpenMP 2018 (IWOMP'18), & The 30th International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD'18)_
+* Idan Mosseri, Re'em Harel, Harel Levin, Matan Rusanovsky, Gal Oren, **Automatic Parallelization for Shared Memory Scientific Multiprocessing (Presentation & Poster)**, _OpenMPCon Developers Conference (OpenMPCon'18), The 14th International Workshop on OpenMP 2018 (IWOMP'18), & The 30th International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD'18)_
 [Download presentation here](http://galoren.github.io/files/openmpcon_presentation18.pdf)
 
 * Gal Oren, Leonid Barenboim, Harel Levin, **Distributed Fault-Tolerant Backup-Placement in Overloaded Wireless Sensor Networks (Full Paper)**, _The 9th International Conference on Broadband Communications, Networks, and Systems (BROADNETS'18)_
