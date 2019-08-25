@@ -6,6 +6,7 @@ header:
 ---
 ### Profile
 @ [Calcalist](https://www.calcalist.co.il/local/articles/0,7340,L-3688650,00.html)
+@ [Makor Rishon](http://tsurehrlich.blogspot.com/2014/10/blog-post_31.html)
 
 ### TradeMarker
 @ [TheMarker](https://www.themarker.com/law/.premium-1.6612755)
