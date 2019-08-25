@@ -3,14 +3,19 @@ main:
   - title: "About"
     url: /about/
 
+  - title: "Publications"
+    url: /publications/
+
   - title: "Awards"
     url: /awards/
+
+  - title: "Confrences"
+    url: /confrences/
 
   - title: "Press"
     url: /press/
 
-  - title: "Publications"
-    url: /publications/
+
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
