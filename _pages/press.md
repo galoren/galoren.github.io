@@ -11,7 +11,7 @@ header:
 ### TradeMarker
 @ [TheMarker](https://www.themarker.com/law/.premium-1.6612755)
 @ [Calcalist](https://www.calcalist.co.il/local/articles/0,7340,L-3767774,00.html)
-@ [World Trademark Review](https://www.worldtrademarkreview.com/ip-offices/how-artificial-intelligence-willrevolutionise-trademark-search)
+@ [World Trademark Review](https://www.worldtrademarkreview.com/ip-offices/how-artificial-intelligence-will-revolutionise-trademark-search)
 @ [iBGU](https://ibgu.bgu.ac.il/?p=2768)
 @ [CSBGU](http://in.bgu.ac.il/en/natural_science/cs/pages/news/Google%20highlights%20an%20application%20by%20three%20of%20our%20grad%20students.aspx)
 
