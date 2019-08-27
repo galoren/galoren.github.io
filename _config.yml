@@ -117,7 +117,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:orenw@post.bgu.ac.il
     - label: "Linkedin"
-      icon: "fab fa fa-vcard-o"
+      icon: "fab fa-fw fa-vcard-o"
       url: https://www.linkedin.com/in/gal-oren-com
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
