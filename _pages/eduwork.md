@@ -18,15 +18,15 @@ header:
 
 ### Department of Computer Science, M.Sc. (2011 - 2015)
 #### _Open University of Israel_
-* Thesis: Optimizations of Management Algorithms for Multi-Level Memory Hierarchy.
+* Thesis: Optimizations of Management Algorithms for Multi-Level Memory Hierarchy
 * Supervisors: Dr. Leonid Barenboim, Dr. Lior Amar
-* Thesis final score: 94. Degree final score: 92. Magna cum laude.
+* Thesis final score: 94. Degree final score: 92. Magna cum laude
 
 ### Swedish Summer School in Computer Science (S3CS) (June 2016)
 
 #### _KTH Royal Institute of Technology_
-* S3CS consists of two mini-courses by Prof. Michael Mitzenmacher and Prof. Sergei Vassilvitskii.
+* S3CS consists of two mini-courses by Prof. Michael Mitzenmacher and Prof. Sergei Vassilvitskii
 
 ### Radboud Summer School (August 2017)
 #### _Radboud University_
-* Cyberpsychology research course by Dr. Jens Binder.
+* Cyberpsychology research course by Dr. Jens Binder
