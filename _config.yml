@@ -118,7 +118,7 @@ author:
       url: mailto:orenw@post.bgu.ac.il
     - label: "Linkedin"
       icon: "fas fa-fw fa-link"
-      url: https://www.linkedin.com/in/gal-oren-com
+      url: "https://www.linkedin.com/in/gal-oren-com"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   url: "www.cs.bgu.ac.il/~orenw"
