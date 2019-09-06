@@ -4,6 +4,11 @@ permalink: /publications/
 header:
   image: "/images/hpc.jpeg"
 ---
+* Re'em Harel, Gal Oren,  **GraphiX: A Fast Human-Computer Interaction Symmetric Multiprocessing Parallel Scientific Visualization Tool**, _The international Parallel Computing conference (ParCo'19)_
+[Download paper here](http://galoren.github.io/files/parco19_Graphix.pdf)
+
+* Harel Levin, Gal Oren, Eyal Shalev, Vladimir Lyakhovsky,  **Acceleration of Hydro Poro-elastic Damage Simulation in a Shared-Memory Environment**, _The international Parallel Computing conference (ParCo'19)_
+[Download paper here](http://galoren.github.io/files/parco19_HydroPED.pdf)
 
 * Leonid Barenboim, Gal Oren, **Distributed Backup Placement in One Round and its Applications to Maximum Matching Approximation and Self-Stabilization**, _arXiv preprint arXiv:1908.05700 (2019)_
 [Download paper here](http://galoren.github.io/files/MCM19.pdf)
