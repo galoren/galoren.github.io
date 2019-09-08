@@ -1,6 +1,6 @@
 ---
-title: "Confrences"
-permalink: /confrences/
+title: "Conferences"
+permalink: /conferences/
 header:
   image: "/images/hpc.jpeg"
 ---
