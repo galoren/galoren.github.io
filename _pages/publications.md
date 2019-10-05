@@ -10,7 +10,7 @@ header:
 * Harel Levin, Gal Oren, Eyal Shalev, Vladimir Lyakhovsky,  **Acceleration of Hydro Poro-elastic Damage Simulation in a Shared-Memory Environment**, _The international Parallel Computing conference (ParCo'19)_
 [Download paper here](http://galoren.github.io/files/parco19_HydroPED.pdf)
 
-* Leonid Barenboim, Gal Oren, **Distributed Backup Placement in One Round and its Applications to Maximum Matching Approximation and Self-Stabilization**, _arXiv preprint arXiv:1908.05700 (2019)_
+* Leonid Barenboim, Gal Oren, **Distributed Backup Placement in One Round and its Applications to Maximum Matching Approximation and Self-Stabilization**, _The Third Symposium on Simplicity in Algorithms (SOSA 2020), co-located with the 31st ACM-SIAM Symposium on Discrete Algorithms (SODA 2020)_
 [Download paper here](http://galoren.github.io/files/MCM19.pdf)
 
 * Re'em Harel, Idan Mosseri, Harel Levin, Lee-or Alon, Matan Rusanovsky, Gal Oren, **Source-to-Source Parallelization Compilers for Scientific Shared-Memory Multi-core and Accelerated Multiprocessing: Analysis, Pitfalls, Enhancement and Potential**, _The International Journal of Parallel Programming (IJPP'19)_
