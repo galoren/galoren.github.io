@@ -1,0 +1,45 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neuronStroke" x1="44" y1="42" x2="204" y2="212" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6D7CFF"/>
+      <stop offset="0.52" stop-color="#4B5BEE"/>
+      <stop offset="1" stop-color="#25B7C7"/>
+    </linearGradient>
+    <radialGradient id="nodePink" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(70 78) rotate(90) scale(28)">
+      <stop stop-color="#FFD6F4"/>
+      <stop offset="1" stop-color="#F26CC3"/>
+    </radialGradient>
+    <radialGradient id="nodeBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(188 78) rotate(90) scale(28)">
+      <stop stop-color="#D9E3FF"/>
+      <stop offset="1" stop-color="#7090FF"/>
+    </radialGradient>
+    <radialGradient id="nodeCyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(188 182) rotate(90) scale(28)">
+      <stop stop-color="#D8FBFF"/>
+      <stop offset="1" stop-color="#35C4D4"/>
+    </radialGradient>
+    <radialGradient id="nodePurple" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(74 186) rotate(90) scale(24)">
+      <stop stop-color="#E2D8FF"/>
+      <stop offset="1" stop-color="#8D6BF2"/>
+    </radialGradient>
+    <filter id="shadow" x="24" y="32" width="208" height="194" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#1D2650" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <path d="M74 78L128 128L188 78" stroke="url(#neuronStroke)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M74 186L128 128L188 182" stroke="url(#neuronStroke)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M70 78H186" stroke="url(#neuronStroke)" stroke-width="8" stroke-linecap="round" opacity="0.72"/>
+    <path d="M74 186H184" stroke="url(#neuronStroke)" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+    <path d="M128 128V66" stroke="url(#neuronStroke)" stroke-width="9" stroke-linecap="round" opacity="0.65"/>
+    <path d="M128 128V190" stroke="url(#neuronStroke)" stroke-width="9" stroke-linecap="round" opacity="0.65"/>
+
+    <circle cx="70" cy="78" r="24" fill="url(#nodePink)"/>
+    <circle cx="188" cy="78" r="24" fill="url(#nodeBlue)"/>
+    <circle cx="188" cy="182" r="24" fill="url(#nodeCyan)"/>
+    <circle cx="74" cy="186" r="20" fill="url(#nodePurple)"/>
+    <circle cx="128" cy="128" r="28" fill="white"/>
+    <circle cx="128" cy="128" r="20" fill="url(#neuronStroke)"/>
+    <circle cx="128" cy="128" r="10" fill="#F7FBFF"/>
+  </g>
+</svg>

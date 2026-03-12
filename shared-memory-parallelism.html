@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shared-Memory Parallelism | Gal Oren</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="site-title"><a href="index.html">Gal Oren</a></div>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="research.html">Research</a>
+          <a href="projects.html">Projects</a>
+          <a href="publications.html">Publications</a>
+          <a href="teaching.html" class="is-current">Teaching</a>
+          <a href="group.html">Group</a>
+          <a href="about.html">About</a>
+        </nav>
+      </header>
+
+      <main class="main-column">
+        <section class="page-intro">
+          <h1 class="page-title-with-icon">
+            <span class="title-icon title-icon-course" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img">
+                <path d="M5 6.5h10a2 2 0 0 1 2 2v9H7a2 2 0 0 0-2 2Z"></path>
+                <path d="M7 6.5v13"></path>
+                <path d="M17 8.5h2v9"></path>
+              </svg>
+            </span>
+            <span>Shared-Memory Parallelism: CPUs, GPUs, and In-Between</span>
+          </h1>
+          <p>
+            A course I developed around parallel programming on modern
+            shared-memory systems, spanning CPUs, GPUs, and the practical space
+            between them.
+          </p>
+        </section>
+
+        <section class="page-layout">
+          <div class="page-main">
+            <article class="subsection">
+              <h2>Course overview</h2>
+              <p>
+                I developed this course to teach students how to think about
+                parallelism as a systems problem rather than as a collection of
+                isolated APIs. The emphasis is on building intuition for modern
+                multi-core and many-core machines, understanding how code maps
+                to hardware, and learning how performance constraints emerge
+                from memory, synchronization, and scheduling behavior.
+              </p>
+              <p>
+                The official Technion course page frames it around CPUs, GPUs,
+                and the intermediate design space. In practice, that means a
+                course that moves between classical shared-memory parallelism,
+                accelerator-oriented programming, and performance-aware
+                implementation.
+              </p>
+            </article>
+
+            <article class="subsection">
+              <h2>Development and teaching team</h2>
+              <ul class="group-list">
+                <li>
+                  <span class="group-name">Course development and lectures</span>
+                  <p>Dr. Gal Oren</p>
+                </li>
+                <li>
+                  <span class="group-name">Practice sessions</span>
+                  <p>PhD student Yehonatan Fridman</p>
+                </li>
+                <li>
+                  <span class="group-name">Teaching assistance</span>
+                  <p>MSc student Nadav Schneider</p>
+                </li>
+                <li>
+                  <span class="group-name">Materials base</span>
+                  <p>Built in dialogue with open-source and community materials listed on the official course page</p>
+                </li>
+              </ul>
+            </article>
+
+            <article class="subsection">
+              <h2>Topics and emphasis</h2>
+              <ul class="summary-list">
+                <li>Shared-memory programming across modern CPU and GPU environments</li>
+                <li>Performance-aware implementation rather than syntax-only exposure</li>
+                <li>The computational middle ground between classical CPU parallelism and accelerator programming</li>
+                <li>Hands-on materials, exercises, and project-driven learning</li>
+              </ul>
+            </article>
+
+            <article class="subsection">
+              <h2>Course resources</h2>
+              <ul class="link-list">
+                <li><a href="https://galoren.cswp.cs.technion.ac.il/?page_id=268" target="_blank" rel="noreferrer">Official course page</a></li>
+                <li><a href="https://www.linkedin.com/groups/9233356/" target="_blank" rel="noreferrer">Course LinkedIn group</a></li>
+                <li><a href="https://drive.google.com/drive/folders/1JMMqme2-e2xMKG4SPlf22m3T2IpRSDJt?usp=sharing" target="_blank" rel="noreferrer">Lectures and training slides</a></li>
+                <li><a href="https://drive.google.com/drive/folders/1iTGWrKExWcz8P2skCeA71xv54cAfKnH3?usp=sharing" target="_blank" rel="noreferrer">Homework and solutions</a></li>
+                <li><a href="https://drive.google.com/drive/folders/1aJv8H9P6_z4oStgSPNNd5zKkLuAYmzfW?usp=sharing" target="_blank" rel="noreferrer">Project example</a></li>
+                <li><a href="https://drive.google.com/drive/folders/10kh8OmHVh-C6E2IcxUHejlkx4fjiAq1y?usp=sharing" target="_blank" rel="noreferrer">Specifications and examples</a></li>
+                <li><a href="https://devcloud.intel.com/oneapi/get_started/" target="_blank" rel="noreferrer">Intel oneAPI DevCloud</a></li>
+              </ul>
+            </article>
+
+            <article class="subsection">
+              <h2>Reading and course philosophy</h2>
+              <p>
+                On the official page, I point students to standard references
+                such as Patterson and Hennessy, Fog, Chapman, and Wilkinson.
+                My broader teaching philosophy is to combine principled systems
+                understanding with actual programming practice, so that
+                students leave with both conceptual grounding and working
+                competence.
+              </p>
+            </article>
+          </div>
+
+          <aside class="page-side">
+            <div class="side-note">
+              <h3>Official page</h3>
+              <p>
+                The public Technion page remains the primary source for the
+                course materials, links, and updates.
+              </p>
+              <ul class="plain-list">
+                <li><a href="https://galoren.cswp.cs.technion.ac.il/?page_id=268" target="_blank" rel="noreferrer">Technion course page</a></li>
+              </ul>
+            </div>
+            <div class="side-note">
+              <h3>Related pages</h3>
+              <ul class="plain-list">
+                <li><a href="teaching.html">Teaching</a></li>
+                <li><a href="research.html#ai-for-systems">AI for Systems</a></li>
+                <li><a href="projects.html#llms-agents-code">Code and systems projects</a></li>
+              </ul>
+            </div>
+          </aside>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

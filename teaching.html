@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teaching | Gal Oren</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="site-title"><a href="index.html">Gal Oren</a></div>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="research.html">Research</a>
+          <a href="projects.html">Projects</a>
+          <a href="publications.html">Publications</a>
+          <a href="teaching.html" class="is-current">Teaching</a>
+          <a href="group.html">Group</a>
+          <a href="about.html">About</a>
+        </nav>
+      </header>
+
+      <main class="main-column">
+        <section class="page-intro">
+          <h1 class="page-title-with-icon">
+            <span class="title-icon title-icon-teaching" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img">
+                <path d="M3.5 7.5 12 4.5l8.5 3-8.5 3-8.5-3Z"></path>
+                <path d="M7 10.5V15c0 1.8 2.4 3.5 5 3.5s5-1.7 5-3.5v-4.5"></path>
+              </svg>
+            </span>
+            <span>Teaching</span>
+          </h1>
+          <p>
+            Teaching has centered on parallel computing, systems, and the
+            practical mechanics of modern high-performance computing. This page
+            is based on the public Technion teaching record.
+          </p>
+        </section>
+
+        <section class="page-layout">
+          <div class="page-main">
+            <article class="subsection">
+              <h2>Courses taught</h2>
+              <ul class="group-list">
+                <li>
+                  <span class="group-name">Shared-Memory Parallelism: CPUs, GPUs, and In-Between</span>
+                  <p>Technion</p>
+                </li>
+                <li>
+                  <span class="group-name">Distributed Systems (seminar)</span>
+                  <p>Open University of Israel</p>
+                </li>
+                <li>
+                  <span class="group-name">Multi-Core Processors and Embedded Processor Systems</span>
+                  <p>Tel Aviv University</p>
+                </li>
+                <li>
+                  <span class="group-name">Shared-Memory Parallelism: CPUs, GPUs, and In-Between</span>
+                  <p>Ben-Gurion University of the Negev</p>
+                </li>
+              </ul>
+            </article>
+
+            <article class="subsection">
+              <h2>Project-based teaching</h2>
+              <p>
+                In 2025 and 2026, I supervised a Technion project course titled
+                <strong>Cross-Platform GPU Kernel Translation with LLMs</strong>.
+              </p>
+              <p>
+                The project focused on using large language models to translate
+                CUDA GPU kernels to alternative platforms, including OpenCL,
+                SYCL/DPC++, ROCm/HIP, OpenMP offload, and OpenACC, with
+                attention to optimization and benchmarking across heterogeneous
+                GPU ecosystems.
+              </p>
+            </article>
+
+            <article class="subsection">
+              <h2>Developed course</h2>
+              <p>
+                A major teaching thread is a course I developed around
+                shared-memory parallelism across CPUs, GPUs, and the space in
+                between. It is built to make students comfortable moving from
+                classical multi-core programming to accelerator-facing systems
+                work and performance-aware implementation.
+              </p>
+              <p>
+                The course page at Technion presents it as a developed course,
+                with lecture materials, exercises, project resources, and
+                infrastructure links.
+              </p>
+              <ul class="link-list">
+                <li><a href="shared-memory-parallelism.html">Course page on this site</a></li>
+                <li><a href="https://galoren.cswp.cs.technion.ac.il/?page_id=268" target="_blank" rel="noreferrer">Official Technion course page</a></li>
+              </ul>
+            </article>
+
+            <article class="subsection">
+              <h2>Teaching throughline</h2>
+              <p>
+                The same background that feeds my research agenda also shapes
+                my teaching: parallel programming, memory hierarchy,
+                performance reasoning, and systems-level thinking. My goal is
+                not only to cover APIs or tools, but to teach how modern
+                computational systems behave and how to work with them well.
+              </p>
+            </article>
+          </div>
+
+          <aside class="page-side">
+            <div class="side-note">
+              <h3>Official sources</h3>
+              <ul class="plain-list">
+                <li><a href="https://galoren.cswp.cs.technion.ac.il/?page_id=238" target="_blank" rel="noreferrer">Technion teaching page</a></li>
+                <li><a href="https://galoren.cswp.cs.technion.ac.il/?page_id=268" target="_blank" rel="noreferrer">Developed course page</a></li>
+              </ul>
+            </div>
+            <div class="side-note">
+              <h3>Related pages</h3>
+              <ul class="plain-list">
+                <li><a href="shared-memory-parallelism.html">Shared-memory course</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="projects.html">Projects</a></li>
+              </ul>
+            </div>
+          </aside>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

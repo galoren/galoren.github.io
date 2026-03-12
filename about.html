@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Gal Oren</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="site-title"><a href="index.html">Gal Oren</a></div>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="research.html">Research</a>
+          <a href="projects.html">Projects</a>
+          <a href="publications.html">Publications</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="group.html">Group</a>
+          <a href="about.html" class="is-current">About</a>
+        </nav>
+      </header>
+
+      <main class="main-column">
+        <section class="page-intro">
+          <h1 class="page-title-with-icon">
+            <span class="title-icon title-icon-about" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img">
+                <circle cx="12" cy="12" r="8"></circle>
+                <path d="M12 10.2v5.3"></path>
+                <circle cx="12" cy="7.8" r="0.9" fill="currentColor" stroke="none"></circle>
+              </svg>
+            </span>
+            <span>About</span>
+          </h1>
+          <p>
+            A short account of the research trajectory behind my current work.
+          </p>
+        </section>
+
+        <section class="page-layout">
+          <div class="page-main">
+            <article class="subsection">
+              <h2>Today</h2>
+              <p>
+                My work is organized around two directions: AI for Science and
+                AI for Systems. They are two outward directions built on the
+                same computational foundation.
+              </p>
+            </article>
+
+            <article class="subsection" id="foundations">
+              <h2>Before AI reshaped it</h2>
+              <p>
+                Before AI reshaped this landscape, scientific computing was a
+                loop: design the code or the system around a scientific
+                question, run it, port it to new hardware, tune performance
+                and data movement, and then go back to the simulations,
+                instruments, data, and collaborating scientists around the
+                problem.
+              </p>
+              <p>
+                That is the background I came from: scientific computing,
+                high-performance computing, and distributed systems, including
+                simulation codes, memory systems, source-to-source
+                parallelization, runtime behavior, and distributed
+                computation.
+              </p>
+            </article>
+
+            <article class="subsection">
+              <h2>What it became</h2>
+              <p>
+                AI changed that loop and pushed my work in two directions. In
+                AI for Science, I develop AI methods in collaboration across
+                fields such as materials, physics, and biology. In AI for
+                Systems, I study how models and agents can operate on code,
+                parallelism, performance, and the hardware-software stack
+                itself.
+              </p>
+            </article>
+
+            <article class="subsection">
+              <h2>Why it holds together</h2>
+              <p>
+                What ties it together is the same computational viewpoint: how
+                to pose a hard problem, how to make the machine behave the way
+                it should, and how to learn something real from the result.
+              </p>
+            </article>
+          </div>
+
+          <aside class="page-side">
+            <div class="side-note">
+              <h3>Official bios</h3>
+              <ul class="plain-list">
+                <li><a href="https://profiles.stanford.edu/galoren" target="_blank" rel="noreferrer">Stanford Profiles</a></li>
+                <li><a href="https://galoren.people.stanford.edu/" target="_blank" rel="noreferrer">Stanford personal page</a></li>
+                <li><a href="https://galoren.cswp.cs.technion.ac.il/" target="_blank" rel="noreferrer">Technion page</a></li>
+              </ul>
+            </div>
+          </aside>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research | Gal Oren</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="site-title"><a href="index.html">Gal Oren</a></div>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="research.html" class="is-current">Research</a>
+          <a href="projects.html">Projects</a>
+          <a href="publications.html">Publications</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="group.html">Group</a>
+          <a href="about.html">About</a>
+        </nav>
+      </header>
+
+      <main class="main-column">
+        <section class="page-intro">
+          <h1 class="page-title-with-icon">
+            <span class="title-icon title-icon-research" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img">
+                <circle cx="11" cy="11" r="5.5"></circle>
+                <path d="m15.2 15.2 4.3 4.3"></path>
+              </svg>
+            </span>
+            <span>Research</span>
+          </h1>
+          <p>
+            My work is currently organized around two directions that operate
+            in parallel: AI for Science and AI for Systems. Both are grounded
+            in earlier work on scientific computing, HPC, compilers, memory
+            systems, and distributed computation.
+          </p>
+        </section>
+
+        <section class="page-layout research-layout">
+          <div class="page-main">
+            <div class="research-columns">
+              <article class="subsection research-track research-track-science" id="ai-for-science">
+                <h2 class="section-heading-with-image">
+                  <span class="section-thumb section-thumb-composite" aria-hidden="true">
+                    <img
+                      class="section-thumb-piece section-thumb-piece-primary"
+                      src="assets/icons/ai-neurons.svg"
+                      alt=""
+                    />
+                    <img
+                      class="section-thumb-piece section-thumb-piece-secondary"
+                      src="assets/icons/ai-for-science.png"
+                      alt=""
+                    />
+                  </span>
+                  <span>AI for Science</span>
+                </h2>
+                <div class="research-track-copy">
+                  <p>
+                    In this direction, I develop AI methods in collaboration
+                    across the natural sciences, aiming at questions that lead
+                    to measurement, explanation, or discovery.
+                  </p>
+                  <p>
+                    The application areas include materials, physics, and
+                    biology. Methodologically, the work is intentionally
+                    broad: computer vision, reinforcement learning,
+                    foundation models, and multimodal learning all appear
+                    where they are useful.
+                  </p>
+                  <ul class="summary-list">
+                    <li>Scientific imaging and vision for materials and physics</li>
+                    <li>Texture-aware foundation-model adaptation</li>
+                    <li>Learning-based optimization in simulation-driven science</li>
+                  </ul>
+                </div>
+
+                <div class="research-projects">
+                  <h3>Representative projects</h3>
+                  <ul class="inline-link-list research-project-links">
+                    <li><a href="projects.html#textures-microstructure">Scientific textures and microstructure</a></li>
+                    <li><a href="projects.html#biology">AI for structural biology</a></li>
+                    <li><a href="projects.html#experimental-physics">Experimental physics and feedback-driven processes</a></li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="subsection research-track" id="ai-for-systems">
+                <h2 class="section-heading-with-image">
+                  <span class="section-thumb section-thumb-composite" aria-hidden="true">
+                    <img
+                      class="section-thumb-piece section-thumb-piece-primary"
+                      src="assets/icons/ai-neurons.svg"
+                      alt=""
+                    />
+                    <img
+                      class="section-thumb-piece section-thumb-piece-secondary"
+                      src="assets/icons/ai-systems-hardware.svg"
+                      alt=""
+                    />
+                  </span>
+                  <span>AI for Systems</span>
+                </h2>
+                <div class="research-track-copy">
+                  <p>
+                    In this direction, AI is aimed not at a scientific domain,
+                    but at the computational system itself. The question is how
+                    language models and agents can reason about code,
+                    compilers, parallel programming models, accelerator
+                    targets, runtime behavior, and performance constraints.
+                  </p>
+                  <p>
+                    One way to phrase this is AI for computer science: models
+                    that do not merely generate text, but interact with
+                    programs, hardware-facing abstractions, and the mechanics
+                    of modern computing.
+                  </p>
+                  <ul class="summary-list">
+                    <li>LLMs for OpenMP, MPI, and parallel code generation</li>
+                    <li>Code translation across HPC programming models</li>
+                    <li>Reasoning about performance, complexity, and hardware behavior</li>
+                  </ul>
+                </div>
+
+                <div class="research-projects">
+                  <h3>Representative projects</h3>
+                  <ul class="inline-link-list research-project-links">
+                    <li><a href="projects.html#llms-agents-code">LLMs, agents, and hardware-aware parallel code</a></li>
+                    <li><a href="projects.html#foundations">Scientific computing, HPC, and systems foundations</a></li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

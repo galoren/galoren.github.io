@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Gal Oren</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="site-title"><a href="index.html">Gal Oren</a></div>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="research.html">Research</a>
+          <a href="projects.html" class="is-current">Projects</a>
+          <a href="publications.html">Publications</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="group.html">Group</a>
+          <a href="about.html">About</a>
+        </nav>
+      </header>
+
+      <main class="main-column">
+        <section class="page-intro">
+          <h1 class="page-title-with-icon">
+            <span class="title-icon title-icon-projects" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img">
+                <path d="M5 7.5h14"></path>
+                <path d="M5 12h14"></path>
+                <path d="M5 16.5h9"></path>
+              </svg>
+            </span>
+            <span>Projects</span>
+          </h1>
+          <p>
+            These projects are the larger threads that organize my work across
+            multiple papers. The publication record lives separately; this page
+            is meant to show the research directions at a glance.
+          </p>
+        </section>
+
+        <section class="content-section">
+          <div class="projects-carousel-shell">
+            <div class="projects-carousel-controls" aria-label="Project navigation">
+              <div class="projects-carousel-buttons">
+                <button
+                  type="button"
+                  class="projects-carousel-button"
+                  id="projects-prev"
+                  aria-label="Show previous projects"
+                >
+                  Previous
+                </button>
+                <button
+                  type="button"
+                  class="projects-carousel-button"
+                  id="projects-next"
+                  aria-label="Show next projects"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+
+            <div class="projects-carousel-window" id="projects-window">
+              <div class="projects-carousel-track" id="projects-track">
+                <article class="project-card project-card-carousel" id="llms-agents-code">
+                  <p class="project-eyebrow">AI for Systems</p>
+                  <figure class="project-card-visual">
+                    <img
+                      src="assets/icons/ai-neurons.svg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="project-header">
+                    <h2>LLMs, agents, and hardware-aware parallel code</h2>
+                    <p>
+                      I treat code itself as a computational object for AI:
+                      something to read, translate, profile, optimize, and
+                      eventually generate in ways that stay grounded in
+                      performance and hardware constraints.
+                    </p>
+                  </div>
+                  <ul class="summary-list">
+                    <li>Automatic parallelization and translation across OpenMP, MPI, CUDA, and related settings</li>
+                    <li>Domain-specific language models for HPC code and tasks</li>
+                    <li>Performance reasoning, profiling, and hardware-aware code generation</li>
+                  </ul>
+                </article>
+
+                <article class="project-card project-card-carousel" id="textures-microstructure">
+                  <p class="project-eyebrow">AI for Science</p>
+                  <figure class="project-card-visual">
+                    <img
+                      src="assets/icons/project-textures.svg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="project-header">
+                    <h2>Scientific textures and microstructure</h2>
+                    <p>
+                      This thread focuses on scientific imagery where texture,
+                      morphology, and spatial structure matter. The goal is to
+                      build AI tools that understand those patterns rather than
+                      wash them out.
+                    </p>
+                  </div>
+                  <ul class="summary-list">
+                    <li>Texture-aware foundation models and segmentation</li>
+                    <li>Quantitative metallography and microstructure analysis</li>
+                    <li>Pattern-sensitive scientific imaging pipelines</li>
+                  </ul>
+                </article>
+
+                <article class="project-card project-card-carousel" id="experimental-physics">
+                  <p class="project-eyebrow">AI for Science</p>
+                  <figure class="project-card-visual">
+                    <img
+                      src="assets/icons/project-physics.svg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="project-header">
+                    <h2>Experimental physics and feedback-driven processes</h2>
+                    <p>
+                      Here I work on scientific settings where AI is part of a
+                      loop between measurement, physical state, and decision
+                      making, especially when experiments or simulations need
+                      to be steered in real time.
+                    </p>
+                  </div>
+                  <ul class="summary-list">
+                    <li>Multi-view scientific imaging and explainability for experimental setups</li>
+                    <li>Optimization and control in simulation-driven physical processes</li>
+                    <li>Learning systems that close the loop between physical state and computational choice</li>
+                  </ul>
+                </article>
+
+                <article class="project-card project-card-carousel" id="biology">
+                  <p class="project-eyebrow">AI for Science</p>
+                  <figure class="project-card-visual">
+                    <img
+                      src="assets/icons/project-biology.svg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="project-header">
+                    <h2>AI for structural biology</h2>
+                    <p>
+                      This is the biology-facing side of my AI for Science
+                      work, where I collaborate across biological problems that
+                      benefit from sequence modeling, language-model adaptation,
+                      and scientifically informed prediction.
+                    </p>
+                  </div>
+                  <ul class="summary-list">
+                    <li>Language models for RNA editing prediction</li>
+                    <li>Biology-facing modeling built from AI expertise rather than a single fixed method</li>
+                    <li>Collaboration across biological discovery problems</li>
+                  </ul>
+                </article>
+
+                <article class="project-card project-card-carousel" id="foundations">
+                  <p class="project-eyebrow">Foundations</p>
+                  <figure class="project-card-visual">
+                    <img
+                      src="assets/icons/project-foundations.svg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="project-header">
+                    <h2>Scientific computing, HPC, and systems foundations</h2>
+                    <p>
+                      The earlier phase of my work remains foundational: source
+                      to source parallelization, simulation acceleration,
+                      memory systems, distributed algorithms, and the systems
+                      view that made the later AI directions possible.
+                    </p>
+                  </div>
+                  <ul class="summary-list">
+                    <li>Source-to-source parallelization and compiler-facing HPC work</li>
+                    <li>Memory systems, performance, and simulation acceleration</li>
+                    <li>Distributed algorithms and systems-oriented computation</li>
+                  </ul>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="projects-carousel.js"></script>
+  </body>
+</html>
