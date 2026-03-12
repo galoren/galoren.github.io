@@ -2219,8 +2219,8 @@ a:hover {
   .mobile-intro-portrait {
     display: block;
     float: right;
-    width: clamp(118px, 28vw, 160px);
-    margin: 0.1rem 0 0.85rem 1rem;
+    width: clamp(128px, 31vw, 170px);
+    margin: 0.65rem 0 0.9rem 1.1rem;
   }
 
   .mobile-intro-portrait img {
@@ -2386,15 +2386,25 @@ a:hover {
   }
 
   .site-header {
+    justify-items: start;
     gap: 0.6rem;
-    padding: 1rem 0 0.85rem;
+    padding: 3.45rem 0 0.85rem;
     position: relative;
+  }
+
+  .site-header-home {
+    padding-top: 2.95rem;
+  }
+
+  .site-title {
+    width: 100%;
   }
 
   .site-nav-toggle {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 0.45rem;
+    left: 0;
+    right: auto;
     z-index: 1001;
     display: inline-flex;
     align-items: center;
@@ -2442,7 +2452,7 @@ a:hover {
   .site-nav {
     display: none;
     position: fixed;
-    top: 0.75rem;
+    top: 1rem;
     right: 0.75rem;
     left: 0.75rem;
     z-index: 1000;
@@ -2502,9 +2512,10 @@ a:hover {
   }
 
   .mobile-intro-portrait {
-    width: clamp(104px, 31vw, 134px);
-    margin-left: 0.8rem;
-    margin-bottom: 0.7rem;
+    width: clamp(124px, 36vw, 156px);
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+    margin-bottom: 0.8rem;
   }
 
   .mobile-intro-portrait img {
@@ -2553,11 +2564,14 @@ a:hover {
   }
 
   .home-record-strip {
-    gap: 0.45rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
   }
 
   .record-link {
-    padding: 0.5rem 0.72rem;
+    width: 100%;
+    padding: 0.56rem 0.72rem;
   }
 
   .record-label {
@@ -2829,6 +2843,7 @@ a:hover {
   }
 
   .site-nav-toggle {
+    top: 0.38rem;
     padding: 0.54rem 0.74rem;
     font-size: 0.86rem;
   }
@@ -2839,8 +2854,8 @@ a:hover {
   }
 
   .mobile-intro-portrait {
-    width: 96px;
-    margin-left: 0.7rem;
+    width: 112px;
+    margin-left: 0.85rem;
   }
 
   .mobile-about-portrait {
@@ -2849,7 +2864,7 @@ a:hover {
   }
 
   .record-link {
-    padding: 0.48rem 0.65rem;
+    padding: 0.5rem 0.62rem;
   }
 
   .record-label {
