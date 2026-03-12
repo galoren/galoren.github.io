@@ -2635,6 +2635,32 @@ a:hover {
     padding: 1rem;
   }
 
+  .page-layout,
+  .page-main,
+  .subsection,
+  .course-hero-side,
+  .course-quick-links,
+  .course-team-grid,
+  .course-resources-grid,
+  .course-media-grid,
+  .course-books-shell,
+  .course-books-track,
+  .course-book-card,
+  .course-team-card,
+  .course-resource-card,
+  .course-media-card {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .page-layout,
+  .page-main,
+  .subsection,
+  .course-hero,
+  .course-books-shell {
+    overflow-x: clip;
+  }
+
   .project-card-carousel {
     grid-template-rows: auto 6.7rem auto 1fr;
   }
@@ -2698,6 +2724,20 @@ a:hover {
     font-size: 0.92rem;
   }
 
+  .course-team-role,
+  .course-media-badge,
+  .course-team-card strong,
+  .course-resource-card h3,
+  .course-media-card h3,
+  .course-book-meta h3,
+  .course-book-meta p,
+  .course-quick-link-list a,
+  .course-resource-card a,
+  .course-resource-actions a,
+  .course-media-cta {
+    overflow-wrap: anywhere;
+  }
+
   .course-resource-card h3,
   .course-media-card h3,
   .course-book-meta h3 {
@@ -2715,14 +2755,36 @@ a:hover {
   }
 
   .course-books-track {
-    grid-auto-columns: minmax(180px, 82vw);
-    gap: 0.8rem;
-    scroll-padding-left: 0.2rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+    gap: 0.75rem;
+    overflow: visible;
+    padding-bottom: 0;
+    scroll-snap-type: none;
+    width: 100%;
   }
 
   .course-book-card {
-    padding: 0.9rem;
+    height: 100%;
+    padding: 0.85rem;
     border-radius: 20px;
+    grid-template-rows: auto 1fr;
+    align-content: start;
+  }
+
+  .course-book-cover {
+    padding: 0.65rem;
+    border-radius: 16px;
+  }
+
+  .course-book-meta {
+    grid-template-rows: minmax(4.4rem, auto) auto auto;
+    align-content: start;
+  }
+
+  .course-book-meta h3 {
+    line-height: 1.22;
   }
 
   .course-philosophy summary {
