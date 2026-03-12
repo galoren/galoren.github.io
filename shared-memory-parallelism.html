@@ -40,113 +40,450 @@
             <span>Shared-Memory Parallelism: CPUs, GPUs, and In-Between</span>
           </h1>
           <p>
-            A course I developed around parallel programming on modern
-            shared-memory systems, spanning CPUs, GPUs, and the practical space
-            between them.
+            A course I developed around the systems substrate beneath modern AI:
+            parallel programming on shared-memory machines, spanning CPUs, GPUs,
+            accelerators, and the practical space between them.
           </p>
+        </section>
+
+        <section class="course-hero">
+          <div class="course-hero-copy">
+            <p class="project-eyebrow">Developed course</p>
+            <h2>How computation actually reaches modern AI hardware</h2>
+            <p>
+              I developed this course to teach parallelism as a systems
+              discipline: how code, memory movement, synchronization,
+              vectorization, and heterogeneous hardware fit together when
+              students move from CPUs to GPUs and accelerators.
+            </p>
+            <p>
+              Every modern AI stack ultimately runs on parallel systems. This
+              course is about that interface: how humans describe computation,
+              how software maps it to hardware, and how performance constraints
+              appear in the real machine underneath training and inference.
+            </p>
+            <ul class="course-chip-list course-chip-list-inline" aria-label="Course focus">
+              <li>The systems layer beneath AI</li>
+              <li>CPUs, GPUs, and oneAPI</li>
+              <li>Code-to-hardware reasoning</li>
+              <li>Public video archive</li>
+            </ul>
+          </div>
+
+          <div class="course-hero-side">
+            <div class="course-quick-links">
+              <h3>Quick links</h3>
+              <ul class="course-quick-link-list">
+                <li>
+                  <a
+                    href="https://galoren.cswp.cs.technion.ac.il/?page_id=268"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Official Technion course page
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://webcourse.cs.technion.ac.il/236606/Winter2022-2023"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Technion webcourse
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/groups/9233356/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    LinkedIn class group
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/@israeloneapicenterofexcell9059"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    YouTube channel
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <section class="page-layout">
           <div class="page-main">
             <article class="subsection">
-              <h2>Course overview</h2>
-              <p>
-                I developed this course to teach students how to think about
-                parallelism as a systems problem rather than as a collection of
-                isolated APIs. The emphasis is on building intuition for modern
-                multi-core and many-core machines, understanding how code maps
-                to hardware, and learning how performance constraints emerge
-                from memory, synchronization, and scheduling behavior.
-              </p>
-              <p>
-                The official Technion course page frames it around CPUs, GPUs,
-                and the intermediate design space. In practice, that means a
-                course that moves between classical shared-memory parallelism,
-                accelerator-oriented programming, and performance-aware
-                implementation.
-              </p>
+              <h2>Course development</h2>
+              <div class="course-team-grid">
+                <a
+                  class="course-team-card"
+                  href="https://www.linkedin.com/in/gal-oren-com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="course-team-role">Lecturer</span>
+                  <strong>Dr. Gal Oren</strong>
+                </a>
+                <a
+                  class="course-team-card"
+                  href="https://www.linkedin.com/in/yehonatan-fridman-2a33a521a/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="course-team-role">Practice</span>
+                  <strong>Yehonatan Fridman</strong>
+                </a>
+                <div class="course-team-card">
+                  <span class="course-team-role">Teaching assistance</span>
+                  <div class="course-team-members">
+                    <strong>Nadav Schneider</strong>
+                    <strong>Tal Kadosh</strong>
+                  </div>
+                </div>
+                <div class="course-team-card">
+                  <span class="course-team-role">Materials</span>
+                  <strong>The open-source community</strong>
+                </div>
+              </div>
             </article>
 
             <article class="subsection">
-              <h2>Development and teaching team</h2>
-              <ul class="group-list">
-                <li>
-                  <span class="group-name">Course development and lectures</span>
-                  <p>Dr. Gal Oren</p>
-                </li>
-                <li>
-                  <span class="group-name">Practice sessions</span>
-                  <p>PhD student Yehonatan Fridman</p>
-                </li>
-                <li>
-                  <span class="group-name">Teaching assistance</span>
-                  <p>MSc student Nadav Schneider</p>
-                </li>
-                <li>
-                  <span class="group-name">Materials base</span>
-                  <p>Built in dialogue with open-source and community materials listed on the official course page</p>
-                </li>
-              </ul>
+              <h2>Lecture videos and practice sessions</h2>
+              <div class="course-media-grid">
+                <article class="course-media-card course-media-card-video">
+                  <div class="course-media-badge">Lecture video</div>
+                  <h3>Lecture 1</h3>
+                  <a
+                    class="course-video-preview course-video-preview-lecture"
+                    href="https://www.youtube.com/watch?v=kzZunFRdpLM"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Watch Shared-Memory Parallelism lecture 1 on YouTube"
+                  >
+                    <img
+                      src="assets/teaching/videos/lecture-1.jpg"
+                      alt="Preview image for Shared-Memory Parallelism lecture 1"
+                    />
+                    <span class="course-video-overlay">
+                      <span class="course-video-play" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="img">
+                          <path d="m9 7 8 5-8 5Z"></path>
+                        </svg>
+                      </span>
+                      <span class="course-video-label">Watch on YouTube</span>
+                    </span>
+                  </a>
+                  <p>
+                    The lecture stream frames the course from the computational
+                    foundations of shared-memory parallelism to the hardware
+                    interface that modern AI workloads rely on.
+                  </p>
+                  <div class="course-resource-actions">
+                    <a
+                      href="https://www.youtube.com/playlist?list=PLEwxOKBBuIprFVoTKCj-YSLxIUFMkuaNJ"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Full lecture playlist
+                    </a>
+                  </div>
+                </article>
+
+                <article class="course-media-card course-media-card-video">
+                  <div class="course-media-badge">Practice video</div>
+                  <h3>Practice 1</h3>
+                  <a
+                    class="course-video-preview course-video-preview-practice"
+                    href="https://www.youtube.com/watch?v=pv-jpGd59dc"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Watch Shared-Memory Parallelism practice 1 on YouTube"
+                  >
+                    <img
+                      src="assets/teaching/videos/practice-1.jpg"
+                      alt="Preview image for Shared-Memory Parallelism practice 1"
+                    />
+                    <span class="course-video-overlay">
+                      <span class="course-video-play" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="img">
+                          <path d="m9 7 8 5-8 5Z"></path>
+                        </svg>
+                      </span>
+                      <span class="course-video-label">Watch on YouTube</span>
+                    </span>
+                  </a>
+                  <p>
+                    The practice stream turns the concepts into actual code,
+                    tools, and exercises around parallel execution, accelerators,
+                    and performance reasoning.
+                  </p>
+                  <div class="course-resource-actions">
+                    <a
+                      href="https://www.youtube.com/playlist?list=PLEwxOKBBuIprsBzvL60SdIvcTMLQTUrR0"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Full practice playlist
+                    </a>
+                  </div>
+                </article>
+
+                <a
+                  class="course-media-card course-channel-card"
+                  href="https://www.youtube.com/@israeloneapicenterofexcell9059"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div class="course-media-badge">Channel</div>
+                  <h3>YouTube channel</h3>
+                  <p>
+                    The public course video archive, including lectures,
+                    practice sessions, and companion material.
+                  </p>
+                  <span class="course-media-cta">Open channel</span>
+                </a>
+              </div>
             </article>
 
             <article class="subsection">
-              <h2>Topics and emphasis</h2>
-              <ul class="summary-list">
-                <li>Shared-memory programming across modern CPU and GPU environments</li>
-                <li>Performance-aware implementation rather than syntax-only exposure</li>
-                <li>The computational middle ground between classical CPU parallelism and accelerator programming</li>
-                <li>Hands-on materials, exercises, and project-driven learning</li>
-              </ul>
+              <h2>Lectures, training, homework, and projects</h2>
+              <div class="course-resources-grid">
+                <article class="course-resource-card">
+                  <div class="course-resource-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img">
+                      <path d="M4 5.5h16v10H4z"></path>
+                      <path d="M8 18.5h8"></path>
+                      <path d="M10 8.5h4"></path>
+                      <path d="M8 11.5h8"></path>
+                    </svg>
+                  </div>
+                  <h3>Lectures and training slides</h3>
+                  <p>
+                    Lecture decks and practice materials used throughout the
+                    course.
+                  </p>
+                  <a
+                    href="https://drive.google.com/drive/folders/1eaPiTt8Iu8gUYNSaDbpzh3kTUq4WJYj0?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Open folder
+                  </a>
+                </article>
+
+                <article class="course-resource-card">
+                  <div class="course-resource-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img">
+                      <path d="M7 4.5h10a2 2 0 0 1 2 2v11H7a2 2 0 0 0-2 2v-13a2 2 0 0 1 2-2Z"></path>
+                      <path d="M9 9.5h6"></path>
+                      <path d="M9 12.5h6"></path>
+                    </svg>
+                  </div>
+                  <h3>Homework and solutions</h3>
+                  <p>
+                    Graded exercises and accompanying solutions for practice and
+                    self-study.
+                  </p>
+                  <a
+                    href="https://drive.google.com/drive/folders/19PDkw3YdbMMmiCVxwJ0I4gfPd_T4V3Lj?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Open folder
+                  </a>
+                </article>
+
+                <article class="course-resource-card">
+                  <div class="course-resource-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img">
+                      <path d="M5 17.5 12 6.5l7 11Z"></path>
+                      <path d="M12 10.5v3"></path>
+                      <path d="M12 16h.01"></path>
+                    </svg>
+                  </div>
+                  <h3>Project example</h3>
+                  <p>
+                    Example project material showing the scope and level
+                    expected in the competitive project component.
+                  </p>
+                  <a
+                    href="https://drive.google.com/drive/folders/1A9Hw_sgHFi_0893OGki5VSmyR8kGDdMr?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Open folder
+                  </a>
+                </article>
+
+                <article class="course-resource-card">
+                  <div class="course-resource-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img">
+                      <path d="M4.5 6.5h15v11h-15z"></path>
+                      <path d="M8 9.5h8"></path>
+                      <path d="M8 12.5h5"></path>
+                    </svg>
+                  </div>
+                  <h3>Specifications and examples</h3>
+                  <p>
+                    Supplementary examples, specs, and reference material used
+                    around the project and the course assignments.
+                  </p>
+                  <a
+                    href="https://drive.google.com/drive/folders/13Ei0FfKpInZIps2wsbSCME6WNPPDzHqv?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Open folder
+                  </a>
+                </article>
+
+              </div>
             </article>
 
             <article class="subsection">
-              <h2>Course resources</h2>
-              <ul class="link-list">
-                <li><a href="https://galoren.cswp.cs.technion.ac.il/?page_id=268" target="_blank" rel="noreferrer">Official course page</a></li>
-                <li><a href="https://www.linkedin.com/groups/9233356/" target="_blank" rel="noreferrer">Course LinkedIn group</a></li>
-                <li><a href="https://drive.google.com/drive/folders/1JMMqme2-e2xMKG4SPlf22m3T2IpRSDJt?usp=sharing" target="_blank" rel="noreferrer">Lectures and training slides</a></li>
-                <li><a href="https://drive.google.com/drive/folders/1iTGWrKExWcz8P2skCeA71xv54cAfKnH3?usp=sharing" target="_blank" rel="noreferrer">Homework and solutions</a></li>
-                <li><a href="https://drive.google.com/drive/folders/1aJv8H9P6_z4oStgSPNNd5zKkLuAYmzfW?usp=sharing" target="_blank" rel="noreferrer">Project example</a></li>
-                <li><a href="https://drive.google.com/drive/folders/10kh8OmHVh-C6E2IcxUHejlkx4fjiAq1y?usp=sharing" target="_blank" rel="noreferrer">Specifications and examples</a></li>
-                <li><a href="https://devcloud.intel.com/oneapi/get_started/" target="_blank" rel="noreferrer">Intel oneAPI DevCloud</a></li>
-              </ul>
+              <h2>Reading list</h2>
+              <div class="course-books-shell">
+                <div class="course-books-track">
+                  <a
+                    class="course-book-card"
+                    href="https://books.google.com/books/about/High_Performance_Computing.html?hl=&amp;id=YeXptAEACAAJ"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div class="course-book-cover">
+                      <img
+                        src="assets/teaching/books/hpc-modern-systems-and-practices.jpg"
+                        alt="Cover of High Performance Computing: Modern Systems and Practices"
+                      />
+                    </div>
+                    <div class="course-book-meta">
+                      <h3>High Performance Computing: Modern Systems and Practices</h3>
+                      <p>Thomas Sterling, Maciej Brodowicz, Matthew Anderson</p>
+                      <p>Morgan Kaufmann, 2017</p>
+                    </div>
+                  </a>
+
+                  <a
+                    class="course-book-card"
+                    href="https://books.google.com/books/about/Using_OpenMP_The_Next_Step.html?hl=&amp;id=Z2k7DwAAQBAJ"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div class="course-book-cover">
+                      <img
+                        src="assets/teaching/books/using-openmp-next-step.jpg"
+                        alt="Cover of Using OpenMP: The Next Step"
+                      />
+                    </div>
+                    <div class="course-book-meta">
+                      <h3>Using OpenMP: The Next Step</h3>
+                      <p>Ruud Van Der Pas, Eric Stotzer, Christian Terboven</p>
+                      <p>MIT Press, 2017</p>
+                    </div>
+                  </a>
+
+                  <a
+                    class="course-book-card"
+                    href="https://play.google.com/store/books/details?id=ITESEAAAQBAJ"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div class="course-book-cover">
+                      <img
+                        src="assets/teaching/books/openmp-common-core.jpg"
+                        alt="Cover of The OpenMP Common Core: Making OpenMP Simple Again"
+                      />
+                    </div>
+                    <div class="course-book-meta">
+                      <h3>The OpenMP Common Core: Making OpenMP Simple Again</h3>
+                      <p>Timothy G. Mattson, Yun Helen He, Alice E. Koniges</p>
+                      <p>MIT Press, 2019</p>
+                    </div>
+                  </a>
+
+                  <a
+                    class="course-book-card"
+                    href="https://books.google.com/books/about/Programming_Your_GPU_with_OpenMP.html?hl=&amp;id=A9q0EAAAQBAJ"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div class="course-book-cover">
+                      <img
+                        src="assets/teaching/books/programming-your-gpu-openmp.jpg"
+                        alt="Cover of Programming Your GPU with OpenMP"
+                      />
+                    </div>
+                    <div class="course-book-meta">
+                      <h3>Programming Your GPU with OpenMP: Performance Portability for GPUs</h3>
+                      <p>Tom Deakin, Timothy G. Mattson</p>
+                      <p>MIT Press, 2023</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
             </article>
 
-            <article class="subsection">
-              <h2>Reading and course philosophy</h2>
-              <p>
-                On the official page, I point students to standard references
-                such as Patterson and Hennessy, Fog, Chapman, and Wilkinson.
-                My broader teaching philosophy is to combine principled systems
-                understanding with actual programming practice, so that
-                students leave with both conceptual grounding and working
-                competence.
-              </p>
+            <article class="subsection course-philosophy">
+              <details>
+                <summary>Teaching philosophy</summary>
+                <div class="course-philosophy-copy">
+                  <p>
+                    As an educator, my primary goal is to inspire my students
+                    to learn and grow while providing them with the tools and
+                    knowledge necessary to succeed in their careers. In my
+                    teaching, I strive to create an engaging, challenging, and
+                    supportive environment where students can feel confident and
+                    motivated to explore new concepts and ideas.
+                  </p>
+                  <p>
+                    In this course, I aim to provide students with a solid
+                    foundation in parallel programming principles and equip them
+                    with the skills and knowledge required to develop
+                    high-performance, scalable applications on modern multi-core
+                    and many-core processors. Through a combination of lectures,
+                    graded programming exercises, and competitive projects,
+                    students will learn to handle data parallelism with vector
+                    instructions, task parallelism in shared memory with
+                    threads, vector programming, and SIMD extensions,
+                    efficiently offloading kernels to accelerators, as well as
+                    more advanced topics such as thread affinity, memory models,
+                    and NUMA.
+                  </p>
+                  <p>
+                    At the heart of this course is the recognition that the
+                    field of high-performance computing is undergoing a profound
+                    transformation, driven by the end of Dennard scaling and the
+                    rise of multi-core and many-core architectures. As we move
+                    away from the era of Moore's law, it is more important than
+                    ever to understand the fundamental principles of parallelism
+                    and to be able to write code that can take advantage of the
+                    available hardware.
+                  </p>
+                  <p>
+                    To ensure that all students have a strong foundation in the
+                    prerequisite knowledge, I require previous knowledge in
+                    C/C++ or Fortran, programming in the Linux environment, and
+                    Linux shell proficiency in the early weeks of the course.
+                  </p>
+                  <p>
+                    Ultimately, my goal is to provide students with the skills
+                    and knowledge they need to succeed in future careers,
+                    whether in HPC, data center workloads, artificial
+                    intelligence, or any other field that requires expertise in
+                    shared-memory parallelism.
+                  </p>
+                </div>
+              </details>
             </article>
           </div>
-
-          <aside class="page-side">
-            <div class="side-note">
-              <h3>Official page</h3>
-              <p>
-                The public Technion page remains the primary source for the
-                course materials, links, and updates.
-              </p>
-              <ul class="plain-list">
-                <li><a href="https://galoren.cswp.cs.technion.ac.il/?page_id=268" target="_blank" rel="noreferrer">Technion course page</a></li>
-              </ul>
-            </div>
-            <div class="side-note">
-              <h3>Related pages</h3>
-              <ul class="plain-list">
-                <li><a href="teaching.html">Teaching</a></li>
-                <li><a href="research.html#ai-for-systems">AI for Systems</a></li>
-                <li><a href="projects.html#llms-agents-code">Code and systems projects</a></li>
-              </ul>
-            </div>
-          </aside>
         </section>
       </main>
     </div>
+    <script src="site-nav.js"></script>
   </body>
 </html>

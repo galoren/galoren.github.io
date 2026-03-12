@@ -44,10 +44,16 @@
           </p>
         </section>
 
-        <section class="page-layout">
+        <section class="page-layout about-layout">
           <div class="page-main">
-            <article class="subsection">
+            <article class="subsection about-intro-copy">
               <h2>Today</h2>
+              <figure class="mobile-about-portrait" aria-hidden="true">
+                <img
+                  src="assets/portraits/gal-oren-stanford.png"
+                  alt=""
+                />
+              </figure>
               <p>
                 My work is organized around two directions: AI for Science and
                 AI for Systems. They are two outward directions built on the
@@ -97,17 +103,51 @@
           </div>
 
           <aside class="page-side">
+            <figure class="about-portrait-card">
+              <div class="about-portrait-shell">
+                <img
+                  src="assets/portraits/gal-oren-stanford.png"
+                  alt="Portrait of Gal Oren"
+                />
+              </div>
+              <figcaption class="about-portrait-caption">
+                <strong>Gal Oren</strong>
+                <p>AI for Science and Systems</p>
+              </figcaption>
+            </figure>
+
             <div class="side-note">
-              <h3>Official bios</h3>
-              <ul class="plain-list">
-                <li><a href="https://profiles.stanford.edu/galoren" target="_blank" rel="noreferrer">Stanford Profiles</a></li>
-                <li><a href="https://galoren.people.stanford.edu/" target="_blank" rel="noreferrer">Stanford personal page</a></li>
-                <li><a href="https://galoren.cswp.cs.technion.ac.il/" target="_blank" rel="noreferrer">Technion page</a></li>
-              </ul>
+              <h3>Personal pages</h3>
+              <div class="about-link-stack">
+                <a
+                  class="about-link-card"
+                  href="https://galoren.people.stanford.edu/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="record-logo record-logo-stanford" aria-hidden="true">
+                    <img src="assets/logos/stanford.png" alt="" />
+                  </span>
+                  <span class="about-link-label">Stanford page</span>
+                </a>
+
+                <a
+                  class="about-link-card"
+                  href="https://galoren.cswp.cs.technion.ac.il/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="record-logo record-logo-technion" aria-hidden="true">
+                    <img src="assets/logos/technion-wikimedia.png" alt="" />
+                  </span>
+                  <span class="about-link-label">Technion page</span>
+                </a>
+              </div>
             </div>
           </aside>
         </section>
       </main>
     </div>
+    <script src="site-nav.js"></script>
   </body>
 </html>

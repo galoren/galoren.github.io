@@ -1,9 +1,11 @@
 const windowEl = document.getElementById("projects-window");
 const trackEl = document.getElementById("projects-track");
-const prevButton = document.getElementById("projects-prev");
-const nextButton = document.getElementById("projects-next");
+const sidePrevButton = document.getElementById("projects-side-prev");
+const sideNextButton = document.getElementById("projects-side-next");
+const mobilePrevButton = document.getElementById("projects-mobile-prev");
+const mobileNextButton = document.getElementById("projects-mobile-next");
 
-if (windowEl && trackEl && prevButton && nextButton) {
+if (windowEl && trackEl && sidePrevButton && sideNextButton) {
   const cardElements = Array.from(trackEl.querySelectorAll(".project-card-carousel"));
   let currentIndex = 0;
   let isPointerDown = false;
@@ -29,8 +31,16 @@ if (windowEl && trackEl && prevButton && nextButton) {
 
   function updateButtons() {
     const hasOverflow = maxIndex() > 0;
-    prevButton.disabled = !hasOverflow;
-    nextButton.disabled = !hasOverflow;
+    sidePrevButton.disabled = !hasOverflow;
+    sideNextButton.disabled = !hasOverflow;
+
+    if (mobilePrevButton) {
+      mobilePrevButton.disabled = !hasOverflow;
+    }
+
+    if (mobileNextButton) {
+      mobileNextButton.disabled = !hasOverflow;
+    }
   }
 
   function wrapIndex(nextIndex) {
@@ -83,13 +93,25 @@ if (windowEl && trackEl && prevButton && nextButton) {
     updateButtons();
   }
 
-  prevButton.addEventListener("click", () => {
+  sidePrevButton.addEventListener("click", () => {
     snapToIndex(currentIndex - 1);
   });
 
-  nextButton.addEventListener("click", () => {
+  sideNextButton.addEventListener("click", () => {
     snapToIndex(currentIndex + 1);
   });
+
+  if (mobilePrevButton) {
+    mobilePrevButton.addEventListener("click", () => {
+      snapToIndex(currentIndex - 1);
+    });
+  }
+
+  if (mobileNextButton) {
+    mobileNextButton.addEventListener("click", () => {
+      snapToIndex(currentIndex + 1);
+    });
+  }
 
   windowEl.addEventListener("scroll", () => {
     window.requestAnimationFrame(syncIndexFromScroll);

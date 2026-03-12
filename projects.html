@@ -48,30 +48,38 @@
 
         <section class="content-section">
           <div class="projects-carousel-shell">
-            <div class="projects-carousel-controls" aria-label="Project navigation">
-              <div class="projects-carousel-buttons">
-                <button
-                  type="button"
-                  class="projects-carousel-button"
-                  id="projects-prev"
-                  aria-label="Show previous projects"
-                >
-                  Previous
-                </button>
-                <button
-                  type="button"
-                  class="projects-carousel-button"
-                  id="projects-next"
-                  aria-label="Show next projects"
-                >
-                  Next
-                </button>
-              </div>
+            <div class="projects-mobile-controls" aria-label="Project navigation">
+              <button
+                type="button"
+                class="projects-mobile-button"
+                id="projects-mobile-prev"
+                aria-label="Show previous projects"
+              >
+                Previous
+              </button>
+              <button
+                type="button"
+                class="projects-mobile-button"
+                id="projects-mobile-next"
+                aria-label="Show next projects"
+              >
+                Next
+              </button>
             </div>
 
-            <div class="projects-carousel-window" id="projects-window">
-              <div class="projects-carousel-track" id="projects-track">
-                <article class="project-card project-card-carousel" id="llms-agents-code">
+            <div class="projects-carousel-stage">
+              <button
+                type="button"
+                class="projects-carousel-side-button projects-carousel-side-button-prev"
+                id="projects-side-prev"
+                aria-label="Scroll projects left"
+              >
+                <span class="projects-carousel-side-icon" aria-hidden="true"></span>
+              </button>
+
+              <div class="projects-carousel-window" id="projects-window">
+                <div class="projects-carousel-track" id="projects-track">
+                  <article class="project-card project-card-carousel" id="llms-agents-code">
                   <p class="project-eyebrow">AI for Systems</p>
                   <figure class="project-card-visual">
                     <img
@@ -167,7 +175,7 @@
                   </ul>
                 </article>
 
-                <article class="project-card project-card-carousel" id="foundations">
+                  <article class="project-card project-card-carousel" id="foundations">
                   <p class="project-eyebrow">Foundations</p>
                   <figure class="project-card-visual">
                     <img
@@ -189,14 +197,25 @@
                     <li>Memory systems, performance, and simulation acceleration</li>
                     <li>Distributed algorithms and systems-oriented computation</li>
                   </ul>
-                </article>
+                  </article>
+                </div>
               </div>
+
+              <button
+                type="button"
+                class="projects-carousel-side-button projects-carousel-side-button-next"
+                id="projects-side-next"
+                aria-label="Scroll projects right"
+              >
+                <span class="projects-carousel-side-icon" aria-hidden="true"></span>
+              </button>
             </div>
           </div>
         </section>
       </main>
     </div>
 
+    <script src="site-nav.js"></script>
     <script src="projects-carousel.js"></script>
   </body>
 </html>

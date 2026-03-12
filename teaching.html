@@ -39,32 +39,121 @@
             <span>Teaching</span>
           </h1>
           <p>
-            Teaching has centered on parallel computing, systems, and the
-            practical mechanics of modern high-performance computing. This page
-            is based on the public Technion teaching record.
+            My teaching centers on the systems layer that modern AI now depends
+            on: parallel hardware, accelerators, memory hierarchy, and
+            performance-aware computing. The developed course below is the
+            clearest example of how I turn that into curriculum, materials,
+            and hands-on training.
           </p>
+        </section>
+
+        <section class="course-spotlight">
+          <div class="course-spotlight-copy">
+            <a
+              class="course-spotlight-link"
+              href="shared-memory-parallelism.html"
+              aria-label="Open the shared-memory parallelism course page"
+            >
+              <p class="project-eyebrow">Developed course</p>
+              <h2>How computation reaches modern AI hardware</h2>
+              <p class="course-spotlight-subtitle">
+                Shared-Memory Parallelism: CPUs, GPUs, and In-Between
+              </p>
+              <p>
+                I developed this course around the computational substrate on
+                which modern AI actually runs: parallel CPUs, GPUs,
+                accelerators, memory movement, and the software-hardware
+                interface that makes large-scale systems usable in practice.
+              </p>
+              <p>
+                It is still a shared-memory parallelism course in name and
+                foundations, but the framing is current: how humans, code,
+                compilers, runtimes, and hardware meet in the age of AI.
+              </p>
+            </a>
+            <div class="course-cta-row">
+              <a class="course-cta course-cta-primary" href="shared-memory-parallelism.html">
+                Explore the course page
+              </a>
+            </div>
+            <p class="course-inline-links" aria-label="External course links">
+              <a
+                href="https://galoren.cswp.cs.technion.ac.il/?page_id=268"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Technion page
+              </a>
+              <span aria-hidden="true">|</span>
+              <a
+                href="https://webcourse.cs.technion.ac.il/236606/Winter2022-2023"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Technion webcourse
+              </a>
+            </p>
+          </div>
         </section>
 
         <section class="page-layout">
           <div class="page-main">
             <article class="subsection">
               <h2>Courses taught</h2>
-              <ul class="group-list">
+              <ul class="teaching-course-list">
                 <li>
-                  <span class="group-name">Shared-Memory Parallelism: CPUs, GPUs, and In-Between</span>
-                  <p>Technion</p>
+                  <div>
+                    <span class="group-name">Shared-Memory Parallelism: CPUs, GPUs, and In-Between</span>
+                    <p>Technion</p>
+                  </div>
+                  <a
+                    href="shared-memory-parallelism.html"
+                    aria-label="Open the shared-memory course page on this site"
+                  >
+                    View
+                  </a>
                 </li>
                 <li>
-                  <span class="group-name">Distributed Systems (seminar)</span>
-                  <p>Open University of Israel</p>
+                  <div>
+                    <span class="group-name">Distributed Systems (seminar)</span>
+                    <p>Open University of Israel</p>
+                  </div>
+                  <a
+                    href="https://www.openu.ac.il/courses/20583.htm?_gl=1*cn74rh*_ga*MTc4MDE0NjM0OS4xNjk3NzA3NDE2*_ga_D925SY5X0Q*MTY5NzcwNzQxNS4xLjEuMTY5NzcwNzQ3OS41OC4wLjA."
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Open the Open University seminar page"
+                  >
+                    Source
+                  </a>
                 </li>
                 <li>
-                  <span class="group-name">Multi-Core Processors and Embedded Processor Systems</span>
-                  <p>Tel Aviv University</p>
+                  <div>
+                    <span class="group-name">Multi-Core Processors and Embedded Processor Systems</span>
+                    <p>Tel Aviv University</p>
+                  </div>
+                  <a
+                    href="https://www.ims.tau.ac.il/Tal/Syllabus/Syllabus_L.aspx?lang=EN&amp;course=0510742001&amp;year=2023"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Open the Tel Aviv University course page"
+                  >
+                    Source
+                  </a>
                 </li>
                 <li>
-                  <span class="group-name">Shared-Memory Parallelism: CPUs, GPUs, and In-Between</span>
-                  <p>Ben-Gurion University of the Negev</p>
+                  <div>
+                    <span class="group-name">Shared-Memory Parallelism: CPUs, GPUs, and In-Between</span>
+                    <p>Ben-Gurion University of the Negev</p>
+                  </div>
+                  <a
+                    href="https://moodle.bgu.ac.il/moodle/course/view.php?id=54035"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Open the Ben-Gurion University course page"
+                  >
+                    Source
+                  </a>
                 </li>
               </ul>
             </article>
@@ -76,65 +165,30 @@
                 <strong>Cross-Platform GPU Kernel Translation with LLMs</strong>.
               </p>
               <p>
-                The project focused on using large language models to translate
-                CUDA GPU kernels to alternative platforms, including OpenCL,
-                SYCL/DPC++, ROCm/HIP, OpenMP offload, and OpenACC, with
-                attention to optimization and benchmarking across heterogeneous
-                GPU ecosystems.
+                The project asked students to use large language models for
+                portable GPU kernel translation across CUDA, OpenCL,
+                SYCL/DPC++, ROCm/HIP, OpenMP offload, and OpenACC, while
+                reasoning about optimization and benchmarking across
+                heterogeneous platforms.
               </p>
             </article>
 
             <article class="subsection">
-              <h2>Developed course</h2>
+              <h2>Course thoughts</h2>
               <p>
-                A major teaching thread is a course I developed around
-                shared-memory parallelism across CPUs, GPUs, and the space in
-                between. It is built to make students comfortable moving from
-                classical multi-core programming to accelerator-facing systems
-                work and performance-aware implementation.
+                The same background that feeds my research agenda also shapes my
+                teaching: parallel programming, memory hierarchy, runtime
+                behavior, and systems-level thinking. Today this matters not as
+                an isolated HPC topic, but because AI itself lives on top of
+                these systems. I try to teach not only APIs or tools, but the
+                actual mechanics behind the computation.
               </p>
-              <p>
-                The course page at Technion presents it as a developed course,
-                with lecture materials, exercises, project resources, and
-                infrastructure links.
-              </p>
-              <ul class="link-list">
-                <li><a href="shared-memory-parallelism.html">Course page on this site</a></li>
-                <li><a href="https://galoren.cswp.cs.technion.ac.il/?page_id=268" target="_blank" rel="noreferrer">Official Technion course page</a></li>
-              </ul>
             </article>
 
-            <article class="subsection">
-              <h2>Teaching throughline</h2>
-              <p>
-                The same background that feeds my research agenda also shapes
-                my teaching: parallel programming, memory hierarchy,
-                performance reasoning, and systems-level thinking. My goal is
-                not only to cover APIs or tools, but to teach how modern
-                computational systems behave and how to work with them well.
-              </p>
-            </article>
           </div>
-
-          <aside class="page-side">
-            <div class="side-note">
-              <h3>Official sources</h3>
-              <ul class="plain-list">
-                <li><a href="https://galoren.cswp.cs.technion.ac.il/?page_id=238" target="_blank" rel="noreferrer">Technion teaching page</a></li>
-                <li><a href="https://galoren.cswp.cs.technion.ac.il/?page_id=268" target="_blank" rel="noreferrer">Developed course page</a></li>
-              </ul>
-            </div>
-            <div class="side-note">
-              <h3>Related pages</h3>
-              <ul class="plain-list">
-                <li><a href="shared-memory-parallelism.html">Shared-memory course</a></li>
-                <li><a href="research.html">Research</a></li>
-                <li><a href="projects.html">Projects</a></li>
-              </ul>
-            </div>
-          </aside>
         </section>
       </main>
     </div>
+    <script src="site-nav.js"></script>
   </body>
 </html>
