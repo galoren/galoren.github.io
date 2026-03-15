@@ -336,6 +336,14 @@ a:hover {
   margin: 0;
 }
 
+.intro-current-row {
+  display: contents;
+}
+
+.intro-current-text {
+  margin: 0.5rem 0 0;
+}
+
 .intro-background-desktop {
   display: block;
 }
@@ -2277,9 +2285,8 @@ a:hover {
 
   .mobile-intro-portrait {
     display: block;
-    float: right;
     width: clamp(128px, 31vw, 170px);
-    margin: 0.65rem 0 0.9rem 1.1rem;
+    margin: 0;
   }
 
   .mobile-intro-portrait img {
@@ -2287,6 +2294,27 @@ a:hover {
     border: 1px solid var(--border);
     border-radius: 24px;
     box-shadow: var(--shadow);
+  }
+
+  .intro-current-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) clamp(124px, 36vw, 156px);
+    grid-template-areas: "text portrait";
+    align-items: start;
+    gap: 0.95rem;
+  }
+
+  .intro-current-text {
+    grid-area: text;
+    margin: 0;
+    min-width: 0;
+  }
+
+  .mobile-intro-portrait {
+    grid-area: portrait;
+    width: 100%;
+    max-width: none;
+    justify-self: end;
   }
 
   .page-intro {
@@ -2644,10 +2672,7 @@ a:hover {
   }
 
   .mobile-intro-portrait {
-    width: clamp(124px, 36vw, 156px);
-    margin-top: 0.7rem;
-    margin-left: 1rem;
-    margin-bottom: 0.8rem;
+    width: 100%;
   }
 
   .mobile-intro-portrait img {
@@ -3072,8 +3097,12 @@ a:hover {
   }
 
   .mobile-intro-portrait {
-    width: 112px;
-    margin-left: 0.85rem;
+    width: 100%;
+  }
+
+  .intro-current-row {
+    grid-template-columns: minmax(0, 1fr) 112px;
+    gap: 0.8rem;
   }
 
   .mobile-about-portrait {
