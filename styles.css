@@ -49,6 +49,14 @@ a:hover {
   padding-bottom: 4rem;
 }
 
+.home-page .site-shell {
+  min-height: 100svh;
+  display: grid;
+  align-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .site-header {
   display: grid;
   justify-items: center;
@@ -108,6 +116,26 @@ a:hover {
 
 .main-column {
   padding-top: 1rem;
+}
+
+.main-column-home {
+  min-height: auto;
+  display: block;
+}
+
+.home-stage {
+  display: grid;
+  gap: 1.5rem;
+  justify-items: center;
+  width: 100%;
+}
+
+.home-stage > * {
+  width: 100%;
+}
+
+.home-stage .content-section {
+  margin-top: 0;
 }
 
 .home-intro {
@@ -278,6 +306,7 @@ a:hover {
 
 .intro-copy {
   text-align: left;
+  max-width: 580px;
 }
 
 .intro-copy::after {
@@ -305,6 +334,31 @@ a:hover {
 .mobile-intro-portrait {
   display: none;
   margin: 0;
+}
+
+.intro-background-desktop {
+  display: block;
+}
+
+.intro-background-details {
+  display: none;
+  margin-top: 0.2rem;
+}
+
+.intro-background-details summary {
+  display: none;
+}
+
+.intro-background-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.intro-background-details > p {
+  margin: 0.5rem 0 0;
+}
+
+.intro-background-details:not([open]) > *:not(summary) {
+  display: block;
 }
 
 .hero-chips {
@@ -2216,6 +2270,11 @@ a:hover {
     gap: 1.5rem;
   }
 
+  .home-page .site-shell {
+    padding-top: 1.4rem;
+    padding-bottom: 1.6rem;
+  }
+
   .mobile-intro-portrait {
     display: block;
     float: right;
@@ -2233,6 +2292,65 @@ a:hover {
   .page-intro {
     max-width: none;
     text-align: left;
+  }
+
+  .intro-copy {
+    max-width: 100%;
+  }
+
+  .intro-background-desktop {
+    display: none;
+  }
+
+  .intro-background-details {
+    display: block;
+    margin-top: 0.1rem;
+  }
+
+  .intro-background-details summary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.45rem;
+    cursor: pointer;
+    list-style: none;
+    padding: 0;
+    color: var(--link-hover);
+    font-size: 0.93rem;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+
+  .intro-background-details summary::after {
+    content: "";
+    width: 0.52rem;
+    height: 0.52rem;
+    display: inline-block;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg) translateY(-0.05rem);
+    transition: transform 160ms ease;
+  }
+
+  .intro-background-details summary:hover {
+    text-decoration: underline;
+  }
+
+  .intro-background-details:not([open]) > *:not(summary) {
+    display: none;
+  }
+
+  .intro-background-details[open] summary {
+    margin-bottom: 0.55rem;
+  }
+
+  .intro-background-details[open] summary::after {
+    transform: rotate(225deg) translateY(0.02rem);
+  }
+
+  .intro-background-details > p {
+    margin: 0;
+    padding: 0;
   }
 
   .page-title-with-icon {
@@ -2494,6 +2612,13 @@ a:hover {
     padding-top: 0.35rem;
   }
 
+  .home-page .site-shell {
+    min-height: 100svh;
+    align-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1.2rem;
+  }
+
   .intro-copy h1,
   .page-intro h1 {
     font-size: clamp(2.05rem, 9vw, 2.7rem);
@@ -2563,6 +2688,10 @@ a:hover {
     gap: 1.2rem;
   }
 
+  .home-stage {
+    gap: 1.2rem;
+  }
+
   .home-record-strip {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2576,6 +2705,18 @@ a:hover {
 
   .record-label {
     font-size: 0.88rem;
+  }
+
+  .intro-background-details {
+    margin-top: 0.12rem;
+  }
+
+  .intro-background-details summary {
+    font-size: 0.9rem;
+  }
+
+  .intro-background-details > p {
+    padding: 0;
   }
 
   .home-card,
