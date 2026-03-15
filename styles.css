@@ -2666,9 +2666,10 @@ a:hover {
   }
 
   .intro-statement {
-    margin-top: 0.7rem;
-    font-size: 1.02rem;
-    line-height: 1.22;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.12rem;
+    line-height: 1.28;
   }
 
   .mobile-intro-portrait {
