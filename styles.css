@@ -1383,6 +1383,27 @@ a:hover {
   font-weight: 600;
 }
 
+.group-institution-heading {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.group-institution-logo {
+  width: 1.1em;
+  height: 1.1em;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.group-scope-note {
+  margin-bottom: 0.2rem;
+}
+
+.group-institutions {
+  margin-top: 0;
+}
+
 .small-note {
   color: var(--muted);
   font-size: 0.96rem;
