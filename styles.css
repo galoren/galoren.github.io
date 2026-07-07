@@ -1643,6 +1643,240 @@ a:hover {
   color: var(--muted);
 }
 
+.publication-map-section,
+.external-records-section {
+  display: grid;
+  gap: 1rem;
+}
+
+.publication-section-note {
+  margin: 0;
+  color: var(--muted);
+}
+
+.publication-program-stack {
+  display: grid;
+  gap: 2rem;
+}
+
+.publication-program {
+  display: grid;
+  gap: 1rem;
+  padding-top: 1.35rem;
+  border-top: 1px solid var(--border);
+}
+
+.publication-program:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.publication-program-header {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.publication-program-header h3 {
+  margin: 0;
+  color: var(--text);
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+
+.publication-program-header p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.publication-subsection {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.publication-subsection h4 {
+  margin: 0;
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.publication-paper-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.7rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.publication-paper-card {
+  display: grid;
+  align-content: start;
+  gap: 0.48rem;
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: 0 8px 24px rgba(32, 33, 36, 0.04);
+}
+
+.publication-paper-authors {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.42;
+}
+
+.publication-paper-authors strong {
+  color: var(--link-hover);
+  font-weight: 800;
+}
+
+.publication-paper-title {
+  margin: 0;
+  color: var(--text);
+  font-size: 1.07rem;
+  font-weight: 800;
+  line-height: 1.32;
+}
+
+.publication-paper-meta {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto auto;
+  gap: 0.55rem;
+  align-items: center;
+  padding-top: 0.15rem;
+}
+
+.publication-paper-type,
+.publication-paper-year,
+.publication-paper-link,
+.publication-paper-link-placeholder {
+  min-height: 1.75rem;
+}
+
+.publication-paper-type,
+.publication-paper-year {
+  display: inline-flex;
+  align-items: center;
+  width: max-content;
+  padding: 0.16rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.publication-paper-type {
+  color: var(--link-hover);
+  background: var(--surface-soft);
+  text-transform: uppercase;
+}
+
+.publication-paper-venue {
+  min-width: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.publication-paper-year {
+  color: var(--text);
+  background: #ffffff;
+}
+
+.publication-paper-link,
+.publication-paper-link-placeholder {
+  justify-self: end;
+  min-width: 5rem;
+}
+
+.publication-paper-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.22rem 0.65rem;
+  border: 1px solid #bfd3fb;
+  border-radius: 999px;
+  background: #eaf2ff;
+  color: var(--link-hover);
+  font-size: 0.86rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.publication-paper-link:hover {
+  color: var(--link-hover);
+  text-decoration: none;
+  border-color: #9dbcf6;
+  background: #dceaff;
+}
+
+@media (max-width: 640px) {
+  .publication-paper-meta {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.45rem;
+  }
+
+  .publication-paper-type,
+  .publication-paper-venue {
+    grid-column: 1 / -1;
+  }
+
+  .publication-paper-link,
+  .publication-paper-link-placeholder {
+    min-width: 4.25rem;
+  }
+}
+
+.external-record-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: 0.85rem;
+}
+
+.external-record-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: 0 8px 24px rgba(32, 33, 36, 0.04);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.external-record-card:hover {
+  color: var(--text);
+  text-decoration: none;
+  border-color: #c7d2e5;
+  background: #ffffff;
+}
+
+.external-record-card > span:last-child {
+  display: grid;
+  gap: 0.18rem;
+  min-width: 0;
+}
+
+.external-record-card strong {
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.external-record-card span span {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
 .link-list {
   display: flex;
   flex-wrap: wrap;

@@ -4,12 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Publications | Gal Oren</title>
+    <meta
+      name="description"
+      content="CV-sourced publication map for Gal Oren across AI for Science, AI for Systems, HPC, LLMs for code, RNA editing, scientific imaging, and scientific computing."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://galoren.github.io/publications.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Gal Oren" />
+    <meta property="og:title" content="Publications | Gal Oren" />
+    <meta
+      property="og:description"
+      content="A crawlable publication map organized by research program, with journals and main conferences separated from workshops, preprints, and extended abstracts."
+    />
+    <meta property="og:url" content="https://galoren.github.io/publications.html" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://galoren.github.io/publications.html#webpage",
+        "url": "https://galoren.github.io/publications.html",
+        "name": "Publications | Gal Oren",
+        "description": "CV-sourced publication map for Gal Oren across AI for Science, AI for Systems, HPC, LLMs for code, RNA editing, scientific imaging, and scientific computing.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://galoren.github.io/#website",
+          "url": "https://galoren.github.io/",
+          "name": "Gal Oren"
+        },
+        "about": [
+          "AI for Science",
+          "AI for Systems",
+          "High-Performance Computing",
+          "LLMs for Code",
+          "RNA Editing",
+          "Scientific Imaging",
+          "Scientific Computing"
+        ]
+      }
+    </script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -40,73 +79,1488 @@
             <span>Publications</span>
           </h1>
           <p>
-            I maintain the live publication record on Google Scholar. This
-            page is a clean gateway to that record and to a small number of
-            external indexes.
+            My research develops execution-grounded AI for scientific and computational systems, with AI for Science and AI for Systems tied together by validation from compilation, profiling, runtime behavior, biological structure, measurement, and scientific computing. This page groups the publication record into execution-grounded AI for code and systems; AI for biology and RNA editing; AI for materials, microscopy, and scientific imaging; and scientific computing, HPC, and distributed foundations.
           </p>
         </section>
 
-        <section class="content-section publication-portal">
-          <a
-            href="https://scholar.google.co.il/citations?hl=en&user=QAetjq8AAAAJ"
-            class="publication-hero"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div class="publication-hero-topline">
-              <span class="publication-hero-badge">Live Record</span>
-              <span class="publication-hero-url">scholar.google.com</span>
-            </div>
-            <div class="publication-hero-body">
-              <div class="publication-hero-brand">
-                <span class="record-logo record-logo-scholar" aria-hidden="true">
-                  <img src="assets/logos/scholar.png" alt="" />
-                </span>
-                <div>
-                  <h2>Google Scholar</h2>
-                  <p>
-                    Open the live citation profile, publication list, and
-                    current bibliographic record.
-                  </p>
-                </div>
-              </div>
-              <span class="publication-hero-cta">Open Scholar</span>
-            </div>
-          </a>
+        <section class="content-section publication-map-section" aria-labelledby="publication-map">
+          <h2 id="publication-map">Publication map</h2>
 
-          <div class="publication-secondary-grid publication-secondary-grid-wide">
+          <div class="publication-program-stack">
+            <section class="publication-program" aria-labelledby="systems-ai">
+              <div class="publication-program-header">
+                <h3 id="systems-ai">Execution-grounded AI for code and systems</h3>
+                <p>Research on AI systems that generate, translate, and improve parallel code under compiler, runtime, and performance feedback.</p>
+              </div>
+
+              <div class="publication-subsection">
+                <h4>Journal and main-conference papers</h4>
+                <ol class="publication-paper-list">
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">E. Kaplan, T. Bitan, L. Ghrayeb, L. Chen, T. Yotam, N. Hasabnis, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">ParaCodex: A Profiling-Guided Autonomous Coding Agent for Reliable Parallel Code Generation and Translation</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">ACL Main, 2026 (accepted; reference forthcoming). arXiv preprint arXiv:2601.04327</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.48550/arXiv.2601.04327" target="_blank" rel="noreferrer">DOI/arXiv</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">R. Harel, T. Kadosh, N. Hasabnis, T. Mattson, Y. Pinter, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">PragFormer: Data-driven Parallel Source Code Classification with Transformers</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Journal paper</span>
+
+                      <span class="publication-paper-venue">International Journal of Parallel Programming 53.1 (2025), 1-26</span>
+
+                      <span class="publication-paper-year">2025</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1007/s10766-024-00778-9" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">T. Bitan, T. Kadosh, E. Kaplan, S. Meiri, L. Chen, P. Morales, N. Hasabnis, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">UniPar: A Unified LLM-Based Framework for Parallel and Accelerated Code Translation in HPC</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">HPEC 2025</span>
+
+                      <span class="publication-paper-year">2025</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1109/HPEC67600.2025.11196677" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">T. Kadosh, N. Hasabnis, V. A. Vo, N. Schneider, N. Krien, M. Capota, A. Wasay, ..., <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">MonoCoder: Domain-Specific Code Language Model for HPC Codes and Tasks</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">HPEC 2024</span>
+
+                      <span class="publication-paper-year">2024</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1109/HPEC62836.2024.10938441" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">L. Chen, A. Bhattacharjee, N. Ahmed, N. Hasabnis, <strong>G. Oren</strong>, V. Vo, A. Jannesari</p>
+
+                    <h5 class="publication-paper-title">OMPGPT: A Generative Pre-trained Transformer Model for OpenMP</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">Euro-Par 2024</span>
+
+                      <span class="publication-paper-year">2024</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1007/978-3-031-69577-3_9" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">T. Kadosh, N. Hasabnis, T. Mattson, Y. Pinter, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Quantifying OpenMP: Statistical Insights into Usage and Adoption</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">HPEC 2023</span>
+
+                      <span class="publication-paper-year">2023</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1109/HPEC58863.2023.10363459" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                </ol>
+              </div>
+
+              <div class="publication-subsection">
+                <h4>Workshops and co-located papers</h4>
+                <ol class="publication-paper-list">
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">Y. Fridman, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Manual, Translated, or LLM-Generated? Comparing Paths to OpenMP Target Offload for LULESH</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">HIPS, IPDPS 2026</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <span class="publication-paper-link-placeholder" aria-hidden="true"></span>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">L. Chen, A. Arijit, N. Ahmed, N. Hasabnis, M. Capota, P. Munoz, <strong>G. Oren</strong>, V. Vo, B. Chapman, A. Jannesari</p>
+
+                    <h5 class="publication-paper-title">ParCoder: Harnessing Transformer Models for Code Translation to Shared-Memory Computing Paradigms</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">iWAPT, IPDPS 2026</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <span class="publication-paper-link-placeholder" aria-hidden="true"></span>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">Y. Fridman, Y. Goren, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">From OpenACC to OpenMP5 GPU Offloading: Performance Evaluation on NAS Parallel Benchmarks</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">ExHet, PPoPP 2025</span>
+
+                      <span class="publication-paper-year">2025</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1145/3720555.3721989" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">G. Bolet, G. Georgakoudis, H. Menon, K. Parasyris, N. Hasabnis, H. Estes, K. Cameron, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Can large language models predict parallel code performance?</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">AI4Sys, HPDC 2025</span>
+
+                      <span class="publication-paper-year">2025</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1145/3731545.3743645" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">T. Kadosh, N. Hasabnis, P. Soundararajan, V. Vo, M. Capota, N. K. Ahmed, Y. Pinter, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">OMPar: Automatic Parallelization with AI-Driven Source-to-Source Compilation</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">ML4Sys, NeurIPS 2024</span>
+
+                      <span class="publication-paper-year">2024</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.48550/arXiv.2409.14771" target="_blank" rel="noreferrer">DOI/arXiv</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">N. Schneider, N. Hasabnis, V. A. Vo, T. Kadosh, N. Krien, M. Capota, A. Wasay, ..., <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">MPIrigen: MPI Code Generation through Domain-Specific Language Models</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">AI4Sys, HPDC 2024</span>
+
+                      <span class="publication-paper-year">2024</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.48550/arXiv.2402.09126" target="_blank" rel="noreferrer">DOI/arXiv</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">N. Schneider, T. Kadosh, N. Hasabnis, T. Mattson, Y. Pinter, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">MPI-rical: Data-Driven MPI Distributed Parallelism Assistance with Transformers</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">AI4DEV, SC 2023</span>
+
+                      <span class="publication-paper-year">2023</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1145/3624062.3624063" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">T. Kadosh, N. Schneider, N. Hasabnis, T. Mattson, Y. Pinter, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Advising OpenMP Parallelization via a Graph-Based Approach with Transformers</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">IWOMP 2023</span>
+
+                      <span class="publication-paper-year">2023</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1007/978-3-031-40744-4_1" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">Y. Fridman, G. Tamir, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Portability and Scalability of OpenMP Offloading on State-of-the-art Accelerators</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">IXPUG, ISC-HPC 2023</span>
+
+                      <span class="publication-paper-year">2023</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1007/978-3-031-40843-4_28" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">I. Mosseri, L. Alon, R. Harel, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">ComPar: optimized multi-compiler for automatic OpenMP S2S parallelization</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">IWOMP 2020</span>
+
+                      <span class="publication-paper-year">2020</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1007/978-3-030-58144-2_16" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                </ol>
+              </div>
+
+              <div class="publication-subsection">
+                <h4>Submitted preprints and extended abstracts</h4>
+                <ol class="publication-paper-list">
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">T. Bitan, E. Kaplan, R. Bar-Yadin, L. Ghrayeb, L. Chen, S. Jhaveri, N. Hasabnis, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Latent Reasoning Guidance for Parallel Code Translation</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Submitted preprint</span>
+
+                      <span class="publication-paper-venue">arXiv preprint arXiv:2606.05518; submitted to conference, 2026</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.48550/arXiv.2606.05518" target="_blank" rel="noreferrer">DOI/arXiv</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">S. Jhaveri, E. Kaplan, T. Yotam, L. Chen, T. Bitan, N. Hasabnis, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">ParBench: A Benchmark for Reliable Evaluation of LLM Parallel Code Translation</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Submitted preprint</span>
+
+                      <span class="publication-paper-venue">Manuscript submitted to conference, 2026</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <span class="publication-paper-link-placeholder" aria-hidden="true"></span>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">G. Bolet, G. Georgakoudis, K. Parasyris, H. Menon, N. Hasabnis, K. W. Cameron, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Counting Without Running: Evaluating LLMs' Reasoning About Code Complexity</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Preprint</span>
+
+                      <span class="publication-paper-venue">arXiv preprint arXiv:2512.04355, 2025</span>
+
+                      <span class="publication-paper-year">2025</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.48550/arXiv.2512.04355" target="_blank" rel="noreferrer">DOI/arXiv</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">L. Chen, N. K. Ahmed, A. Dutta, A. Bhattacharjee, S. Yu, Q. I. Mahmud, W. Abebe, ..., <strong>G. Oren</strong>, et al</p>
+
+                    <h5 class="publication-paper-title">The Landscape and Challenges of HPC Research and LLMs</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Preprint</span>
+
+                      <span class="publication-paper-venue">arXiv preprint arXiv:2402.02018 (2024)</span>
+
+                      <span class="publication-paper-year">2024</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.48550/arXiv.2402.02018" target="_blank" rel="noreferrer">DOI/arXiv</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">T. Kadosh, N. Hasabnis, V. A. Vo, N. Schneider, N. Krien, A. Wasay, N. Ahmed, T. Willke, G. Tamir, Y. Pinter, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Scope is all you need: Transforming LLMs for HPC Code</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Preprint</span>
+
+                      <span class="publication-paper-venue">arXiv preprint arXiv:2308.09440 (2023)</span>
+
+                      <span class="publication-paper-year">2023</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.48550/arXiv.2308.09440" target="_blank" rel="noreferrer">DOI/arXiv</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">L. Chen, A. Bhattacharjee, N. K. Ahmed, N. Hasabnis, <strong>G. Oren</strong>, B. Lei, A. Jannesari</p>
+
+                    <h5 class="publication-paper-title">CompCodeVet: A Compiler-guided Validation and Enhancement Approach for Code Dataset</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Preprint</span>
+
+                      <span class="publication-paper-venue">arXiv preprint arXiv:2311.06505 (2023)</span>
+
+                      <span class="publication-paper-year">2023</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.48550/arXiv.2311.06505" target="_blank" rel="noreferrer">DOI/arXiv</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">R. Harel, Y. Pinter, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Learning to Parallelize in a Shared-Memory Environment with Transformers</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Extended abstract</span>
+
+                      <span class="publication-paper-venue">Extended abstract, PPoPP 2023</span>
+
+                      <span class="publication-paper-year">2023</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1145/3572848.3582565" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                </ol>
+              </div>
+            </section>
+
+            <section class="publication-program" aria-labelledby="biology-ai">
+              <div class="publication-program-header">
+                <h3 id="biology-ai">AI for biology and RNA editing</h3>
+                <p>Research on language models and graph learning for RNA editability prediction and ADAR biology.</p>
+              </div>
+
+              <div class="publication-subsection">
+                <h4>Journal and main-conference papers</h4>
+                <ol class="publication-paper-list">
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">Z. Rosenwasser, R. Cohen-Fultheim, M. Levitt, E. Y. Levanon, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">ADAR-GPT: A continually fine-tuned language model for predicting A-to-I RNA editing sites</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Journal paper</span>
+
+                      <span class="publication-paper-venue">Proceedings of the National Academy of Sciences (PNAS), Jan 2026, 1-10</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1073/pnas.2529073123" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                </ol>
+              </div>
+
+              <div class="publication-subsection">
+                <h4>Workshops and co-located papers</h4>
+                <ol class="publication-paper-list">
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">Z. Rosenwasser, M. Levitt, E. Y. Levanon, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Structure-aware Graph Learning Predicts RNA Editability Across Tissues and Species</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">MLGenX, ICLR 2026</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.21203/rs.3.rs-8793265/v1" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">Z. Rosenwasser, E. Levanon, M. Levitt, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Leveraging GPT Continual Fine-Tuning for Improved RNA Editing Site Prediction</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">MLGenX, ICLR 2025</span>
+
+                      <span class="publication-paper-year">2025</span>
+
+                      <a class="publication-paper-link" href="https://openreview.net/forum?id=L2jj5ekPxa" target="_blank" rel="noreferrer">OpenReview</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">Z. Rosenwasser, E. Levanon, M. Levitt, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Detection of RNA Editing Sites by GPT Fine-tuning</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">AIDrugX, NeurIPS 2024</span>
+
+                      <span class="publication-paper-year">2024</span>
+
+                      <a class="publication-paper-link" href="https://openreview.net/forum?id=Ty0aKMV7Ow" target="_blank" rel="noreferrer">OpenReview</a>
+
+                    </div>
+
+                  </li>
+                </ol>
+              </div>
+
+              <div class="publication-subsection">
+                <h4>Submitted preprints</h4>
+                <ol class="publication-paper-list">
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">Z. Rosenwasser, M. Levitt, E. Y. Levanon, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Structure-aware Graph Learning Predicts RNA Editability Across Tissues and Species</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Submitted preprint</span>
+
+                      <span class="publication-paper-venue">Submitted to Nature Communications (under second review); bioRxiv preprint bioRxiv:2026.02.02.703375, 2026</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.64898/2026.02.02.703375" target="_blank" rel="noreferrer">Preprint DOI</a>
+
+                    </div>
+
+                  </li>
+                </ol>
+              </div>
+            </section>
+
+            <section class="publication-program" aria-labelledby="imaging-ai">
+              <div class="publication-program-header">
+                <h3 id="imaging-ai">AI for materials, microscopy, and scientific imaging</h3>
+                <p>Research on vision models for materials and microscopy where outputs must support quantitative measurement, not just visual plausibility.</p>
+              </div>
+
+              <div class="publication-subsection">
+                <h4>Journal and main-conference papers</h4>
+                <ol class="publication-paper-list">
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">B. Meivar, I. Cohen, M. Rusanovsky, F. Q. Lauzon, J. Robitaille, O. Be'eri, S. Avidan, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Context-aware learning for reliable grain-boundary analysis in quantitative metallography</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Journal paper</span>
+
+                      <span class="publication-paper-venue">Scientific Reports, 2026</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1038/s41598-026-58714-5" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">I. Cohen, B. Meivar, P. Tu, S. Avidan, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Decoupling Shape and Texture in SAM-2 via Controlled Texture Replacement</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">WACV 2026</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1109/WACV61042.2026.00397" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">M. Rusanovsky, O. Beer, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">An End-to-End Computer Vision Methodology for Quantitative Metallography</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Journal paper</span>
+
+                      <span class="publication-paper-venue">Scientific Reports 12.1 (2022): 1-27</span>
+
+                      <span class="publication-paper-year">2022</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1038/s41598-022-08651-w" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">Y. Fridman, M. Rusanovsky, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">ChangeChip: A Reference-Based Unsupervised Change Detection for PCB Defect Detection</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">PAINE 2021</span>
+
+                      <span class="publication-paper-year">2021</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1109/PAINE54418.2021.9707699" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                </ol>
+              </div>
+
+              <div class="publication-subsection">
+                <h4>Workshops and co-located papers</h4>
+                <ol class="publication-paper-list">
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">N. Schneider, G. Hanoch, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Learning 4D Material-Interface Dynamics From Few X-RAY Projections</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">AI4MAT, ICLR 2026</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <a class="publication-paper-link" href="https://openreview.net/forum?id=MJXl8k46qr" target="_blank" rel="noreferrer">OpenReview</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">B. Meivar, I. Cohen, O. Beeri, S. Avidan, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Evaluating Diffusion-based Super-Resolution for Trustworthy Quantitative Metallography</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">AI4MAT, NeurIPS 2025</span>
+
+                      <span class="publication-paper-year">2025</span>
+
+                      <a class="publication-paper-link" href="https://openreview.net/forum?id=UCGrs8J3QF" target="_blank" rel="noreferrer">OpenReview</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">I. Cohen, J. Robitaille, F. Q. Lauzon, O. Beeri, S. Avidan, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Avoiding Post-Processing with Context: Texture Boundary Detection in Metallography</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">AI4MAT, NeurIPS 2024</span>
+
+                      <span class="publication-paper-year">2024</span>
+
+                      <a class="publication-paper-link" href="https://openreview.net/forum?id=OJForTLUC2" target="_blank" rel="noreferrer">OpenReview</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">S. Stamler-Grossman, N. Schneider, G. Hanoch, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">ClariPhy: Physics-Informed Image Deblurring with Transformers for Hydrodynamic Instability Analysis</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">ML4PS, NeurIPS 2024</span>
+
+                      <span class="publication-paper-year">2024</span>
+
+                      <a class="publication-paper-link" href="https://openreview.net/forum?id=33vzb5Eieo" target="_blank" rel="noreferrer">OpenReview</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">N. Schneider, M. Tzdaka, G. Strum, G. Lazovski, G. Bar, ..., <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Explainable Deep Multi-View Methodology for HEDP Foam Quality Assessment</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">AI4MAT 2024</span>
+
+                      <span class="publication-paper-year">2024</span>
+
+                      <a class="publication-paper-link" href="https://openreview.net/forum?id=s4PvJ8hOYX" target="_blank" rel="noreferrer">OpenReview</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">M. Rusanovsky, O. Be'eri, S. Avidan, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Universal Semantic-less Texture Boundary Detection for Microscopy (and Metallography)</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">ML4PS, NeurIPS 2023</span>
+
+                      <span class="publication-paper-year">2023</span>
+
+                      <a class="publication-paper-link" href="https://ml4physicalsciences.github.io/2023/files/NeurIPS_ML4PS_2023_60.pdf" target="_blank" rel="noreferrer">PDF</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">N. Schneider, M. Rusanovsky, R. Gvishi, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Determining HEDP Foams' Quality with Multi-View Deep Learning Classification</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">arXiv preprint arXiv:2208.07196 (2022); AI4S, SC 2022</span>
+
+                      <span class="publication-paper-year">2022</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1109/AI4S56813.2022.00009" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">R. Harel, M. Rusanovsky, Y. Fridman, A. Shimony, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Complete Computer Vision Deep Learning Methodology for Investigating Hydrodynamic Instabilities</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">CFDML, ISC-HPC, 2020; IMVC 2021</span>
+
+                      <span class="publication-paper-year">2021</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1007/978-3-030-59851-8_5" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">M. Rusanovsky, <strong>G. Oren</strong>, S. Ifergane, O. Beeri</p>
+
+                    <h5 class="publication-paper-title">MLography: An Automated Quantitative Metallography Model for Impurities Anomaly Detection using Novel Data Mining and Deep Learning Approach</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Workshop / preprint</span>
+
+                      <span class="publication-paper-venue">arXiv preprint arXiv:2003.04226; accepted MS 2020</span>
+
+                      <span class="publication-paper-year">2020</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.48550/arXiv.2003.04226" target="_blank" rel="noreferrer">DOI/arXiv</a>
+
+                    </div>
+
+                  </li>
+                </ol>
+              </div>
+
+              <div class="publication-subsection">
+                <h4>Submitted preprints</h4>
+                <ol class="publication-paper-list">
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">N. Orenstein, A. Cohen Zada, S. Avidan, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Where Does Texture Evidence Live in SAM? Features, Proposal Masks, and Texture Segmentation</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Submitted preprint</span>
+
+                      <span class="publication-paper-venue">arXiv preprint arXiv:2606.14755; submitted to conference, 2026</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.48550/arXiv.2606.14755" target="_blank" rel="noreferrer">DOI/arXiv</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">A. Cohen Zada, N. Orenstein, S. Avidan, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Sub-Semantic Image Segmentation</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Submitted preprint</span>
+
+                      <span class="publication-paper-venue">arXiv preprint arXiv:2606.14754; submitted to conference, 2026</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.48550/arXiv.2606.14754" target="_blank" rel="noreferrer">DOI/arXiv</a>
+
+                    </div>
+
+                  </li>
+                </ol>
+              </div>
+            </section>
+
+            <section class="publication-program" aria-labelledby="foundations-hpc">
+              <div class="publication-program-header">
+                <h3 id="foundations-hpc">Scientific computing, HPC, and distributed foundations</h3>
+                <p>Research on scientific-computing and distributed-systems foundations for execution, recovery, simulation, and applied validation.</p>
+              </div>
+
+              <div class="publication-subsection">
+                <h4>Journal and main-conference papers</h4>
+                <ol class="publication-paper-list">
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">M. Levitt, B. Marten, <strong>G. Oren</strong>, J. P. A. Ioannidis</p>
+
+                    <h5 class="publication-paper-title">Reclassification and weighting of multiple causes of death: US death certificates 2003-2023</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Journal paper</span>
+
+                      <span class="publication-paper-venue">Proceedings of the National Academy of Sciences 123.25 (2026): e2604493123</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1073/pnas.2604493123" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">D. Schwarcz, N. Schneider, <strong>G. Oren</strong>, U. Steinitz</p>
+
+                    <h5 class="publication-paper-title">Reactor Optimization Benchmark by Reinforcement Learning</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">SNA + MC 2024</span>
+
+                      <span class="publication-paper-year">2024</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1051/epjconf/202430217009" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">L. Barenboim, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Distributed Backup Placement</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Journal paper</span>
+
+                      <span class="publication-paper-venue">Distributed Computing (2022): 1-19</span>
+
+                      <span class="publication-paper-year">2022</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1007/s00446-022-00423-z" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">E. Shalev, S. J. Bauer, M. A. Homel, T. H. Antoun, E. B. Herbold, O. Y. Vorobiev, H. Levin, <strong>G. Oren</strong>, V. Lyakhovsky</p>
+
+                    <h5 class="publication-paper-title">Borehole Breakout Modeling in Arkose and Granite Rocks</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Journal paper</span>
+
+                      <span class="publication-paper-venue">Geomechanics and Geophysics for Geo-Energy and Geo-Resources 7, no. 1 (2021): 1-23</span>
+
+                      <span class="publication-paper-year">2021</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1007/s40948-021-00215-y" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">R. Harel, I. Mosseri, H. Levin, L. Alon, M. Rusanovsky, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Source-to-Source Parallelization Compilers for Scientific Shared-Memory Multi-core and Accelerated Multiprocessing: Analysis, Pitfalls, Enhancement and Potential</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Journal paper</span>
+
+                      <span class="publication-paper-venue">International Journal of Parallel Programming 48.1 (2020): 1-31</span>
+
+                      <span class="publication-paper-year">2020</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1007/s10766-019-00640-3" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">R. Harel, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">GraphiX: A Fast Human-Computer Interaction Symmetric Multiprocessing Parallel Scientific Visualization Tool</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">ParCo 2019</span>
+
+                      <span class="publication-paper-year">2019</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.3233/APC200079" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">H. Levin, <strong>G. Oren</strong>, E. Shalev, V. Lyakhovsky</p>
+
+                    <h5 class="publication-paper-title">Acceleration of Hydro Poro-elastic Damage Simulation in a Shared-Memory Environment</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">ParCo 2019</span>
+
+                      <span class="publication-paper-year">2019</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.3233/APC200059" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">I. Mosseri, M. Rusanovsky, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">TradeMarker - Artificial Intelligence-Based Trademarks Similarity Search Engine</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">HCII 2019</span>
+
+                      <span class="publication-paper-year">2019</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1007/978-3-030-23525-3_13" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors"><strong>G. Oren</strong>, L. Barenboim, H. Levin</p>
+
+                    <h5 class="publication-paper-title">Distributed Fault-Tolerant Backup-Placement in Overloaded Wireless Sensor Networks</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">BROADNETS 2018</span>
+
+                      <span class="publication-paper-year">2018</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1145/3211890.3211901" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors"><strong>G. Oren</strong>, G. Malamud</p>
+
+                    <h5 class="publication-paper-title">CalCul: A Python-based Workspace for High-Performance Parameter-Survey in Scientific Legacy Codes</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">ParCo 2017</span>
+
+                      <span class="publication-paper-year">2017</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.3233/978-1-61499-843-3-242" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors"><strong>G. Oren</strong>, L. Barenboim, H. Levin</p>
+
+                    <h5 class="publication-paper-title">Adaptive Distributed Hierarchical Sensing Algorithm for Reduction of Wireless Sensor Network Cluster-Heads Energy Consumption</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">IWCMC 2017</span>
+
+                      <span class="publication-paper-year">2017</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1109/IWCMC.2017.7986419" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors"><strong>G. Oren</strong>, L. Barenboim, H. Levin</p>
+
+                    <h5 class="publication-paper-title">Load-Balancing Adaptive Clustering Refinement Algorithm for Maximization of Wireless Sensor Network Clusters Lifetime</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">WWIC 2017</span>
+
+                      <span class="publication-paper-year">2017</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1007/978-3-319-61382-6_13" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors"><strong>G. Oren</strong>, L. Amar, D. Levi-Hevroni, G. Malamud</p>
+
+                    <h5 class="publication-paper-title">The Looking-Glass System: A Unidirectional System for Secure Data Transfer using an Optic Medium</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Main conference</span>
+
+                      <span class="publication-paper-venue">FNSS 2016 - Previously IoT-CT, WiMob</span>
+
+                      <span class="publication-paper-year">2016</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1007/978-3-319-48021-3_6" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                </ol>
+              </div>
+
+              <div class="publication-subsection">
+                <h4>Workshops and co-located papers</h4>
+                <ol class="publication-paper-list">
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">R. Harel, R. Wagner, Y. Fridman, M. Rusanovsky, H. Levin, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">SCALSALE: A Scalable MPI+X Benchmark for Lagrangian Hydrodynamics on Heterogeneous Systems</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">PDSEC, IPDPS 2026</span>
+
+                      <span class="publication-paper-year">2026</span>
+
+                      <span class="publication-paper-link-placeholder" aria-hidden="true"></span>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">Y. Fridman, S. M. Desai, N. Singh, T. Willhalm, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">CXL Memory as Persistent Memory for Disaggregated HPC: A Practical Approach</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">MTSA, SC 2023</span>
+
+                      <span class="publication-paper-year">2023</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1145/3624062.3624175" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">Y. Fridman, Y. Snir, H. Levin, D. Hendler, H. Attiya, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Recovery of Distributed Iterative Solvers for Linear Systems Using Non-Volatile RAM</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">arXiv preprint arXiv:2204.11584 (2022); IXPUG 2022; FTXS, SC 2022</span>
+
+                      <span class="publication-paper-year">2022</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1109/FTXS56515.2022.00007" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">Y. Fridman, Y. Snir, M. Rusanovsky, K. Zvi, H. Levin, D. Hendler, H. Attiya, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Assessing the Use Cases of Persistent Memory in High-Performance Scientific Computing</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">IXPUG 2021; FTXS, SC 2021</span>
+
+                      <span class="publication-paper-year">2021</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1109/FTXS54580.2021.00006" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors"><strong>G. Oren</strong>, L. Barenboim</p>
+
+                    <h5 class="publication-paper-title">Backup Placement in WSNs in the Network Management Distributed Setting</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">NGMobile, ICDCS 2021</span>
+
+                      <span class="publication-paper-year">2021</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1109/ICDCSW53096.2021.00015" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">K. Zvi, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Optimized Memoryless Fair-Share HPC Resources Scheduling using Transparent Checkpoint-Restart Preemption</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">SuperCheck 2021</span>
+
+                      <span class="publication-paper-year">2021</span>
+
+                      <a class="publication-paper-link" href="https://arxiv.org/abs/2102.12953" target="_blank" rel="noreferrer">arXiv</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors"><strong>G. Oren</strong>, L. Barenboim</p>
+
+                    <h5 class="publication-paper-title">Distributed Backup K-Placement and Applications to Virtual Memory in Wireless Networks</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">WDALFR, ICDCN 2021</span>
+
+                      <span class="publication-paper-year">2021</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1145/3427477.3429466" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">L. Barenboim, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Distributed Backup Placement in One Round and Its Applications to Maximum Matching Approximation and Self-Stabilization</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Co-located proceedings</span>
+
+                      <span class="publication-paper-venue">SOSA, SODA 2020</span>
+
+                      <span class="publication-paper-year">2020</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1137/1.9781611976014.14" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors">L. Barenboim, <strong>G. Oren</strong></p>
+
+                    <h5 class="publication-paper-title">Fast Distributed Backup Placement in Sparse and Dense Networks</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Co-located proceedings</span>
+
+                      <span class="publication-paper-venue">APOCS, SODA 2020</span>
+
+                      <span class="publication-paper-year">2020</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1137/1.9781611976021.7" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors"><strong>G. Oren</strong>, L. Barenboim, L. Amar</p>
+
+                    <h5 class="publication-paper-title">Memory-Aware Management for Heterogeneous Main Memory Complex using an Optimization of the Aging Paging Algorithm</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Peer-reviewed workshop</span>
+
+                      <span class="publication-paper-venue">HPC4BD, ICPP 2016</span>
+
+                      <span class="publication-paper-year">2016</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1109/ICPPW.2016.29" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                </ol>
+              </div>
+
+              <div class="publication-subsection">
+                <h4>Extended abstracts</h4>
+                <ol class="publication-paper-list">
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors"><strong>G. Oren</strong>, L. Barenboim, H. Levin</p>
+
+                    <h5 class="publication-paper-title">Distributed Fault-Tolerant Backup-Placement in Overloaded Wireless Sensor Networks</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Extended abstract</span>
+
+                      <span class="publication-paper-venue">Extended abstract, SYSTOR 2018; IPDPS 2018</span>
+
+                      <span class="publication-paper-year">2018</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1145/3211890.3211901" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                  <li class="publication-paper-card">
+
+                    <p class="publication-paper-authors"><strong>G. Oren</strong>, L. Barenboim, L. Amar</p>
+
+                    <h5 class="publication-paper-title">Memory-Aware Management for Heterogeneous Main Memory Complex Using an Optimization of the Aging Paging Algorithm</h5>
+
+                    <div class="publication-paper-meta">
+
+                      <span class="publication-paper-type">Extended abstract</span>
+
+                      <span class="publication-paper-venue">Extended abstract, SYSTOR 2016</span>
+
+                      <span class="publication-paper-year">2016</span>
+
+                      <a class="publication-paper-link" href="https://doi.org/10.1109/ICPPW.2016.29" target="_blank" rel="noreferrer">DOI</a>
+
+                    </div>
+
+                  </li>
+                </ol>
+              </div>
+            </section>
+          </div>
+        </section>
+
+        <section class="content-section external-records-section">
+          <h2>External records</h2>
+          <p class="publication-section-note">
+            External indexes and institutional pages remain linked here for live citation data, profile context, and publication pages outside this static site.
+          </p>
+
+          <div class="external-record-grid">
             <a
-              href="https://dblp.org/pid/183/0735.html"
-              class="publication-secondary-card"
+              href="https://scholar.google.co.il/citations?hl=en&amp;user=QAetjq8AAAAJ"
+              class="external-record-card"
               target="_blank"
               rel="noreferrer"
             >
-              <div class="publication-secondary-headline">
-                <span class="record-logo record-logo-dblp" aria-hidden="true">
-                  <img src="assets/logos/dblp.png" alt="" />
-                </span>
-                <h3>DBLP</h3>
-              </div>
-              <p>
-                Computer science bibliography and publication indexing.
-              </p>
+              <span class="record-logo record-logo-scholar" aria-hidden="true">
+                <img src="assets/logos/scholar.png" alt="" />
+              </span>
+              <span>
+                <strong>Google Scholar</strong>
+                <span>Live citation record and broad publication index.</span>
+              </span>
+            </a>
+
+            <a
+              href="https://dblp.org/pid/183/0735.html"
+              class="external-record-card"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="record-logo record-logo-dblp" aria-hidden="true">
+                <img src="assets/logos/dblp.png" alt="" />
+              </span>
+              <span>
+                <strong>DBLP</strong>
+                <span>Computer-science bibliography and conference spine.</span>
+              </span>
             </a>
 
             <a
               href="https://www.researchgate.net/profile/Gal-Oren"
-              class="publication-secondary-card"
+              class="external-record-card"
               target="_blank"
               rel="noreferrer"
             >
-              <div class="publication-secondary-headline">
-                <span class="record-logo record-logo-researchgate" aria-hidden="true">
-                  <img src="assets/logos/researchgate.png" alt="" />
-                </span>
-                <h3>ResearchGate</h3>
-              </div>
-              <p>
-                Research profile, publication pages, and full-text availability where provided.
-              </p>
+              <span class="record-logo record-logo-researchgate" aria-hidden="true">
+                <img src="assets/logos/researchgate.png" alt="" />
+              </span>
+              <span>
+                <strong>ResearchGate</strong>
+                <span>Publication pages and full-text availability where provided.</span>
+              </span>
+            </a>
+
+            <a
+              href="https://galoren.people.stanford.edu/"
+              class="external-record-card"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="record-logo record-logo-stanford" aria-hidden="true">
+                <img src="assets/logos/stanford.png" alt="" />
+              </span>
+              <span>
+                <strong>Stanford page</strong>
+                <span>Institutional profile linked from this site.</span>
+              </span>
+            </a>
+
+            <a
+              href="https://galoren.cswp.cs.technion.ac.il/"
+              class="external-record-card"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="record-logo record-logo-technion" aria-hidden="true">
+                <img src="assets/logos/technion-wikimedia.png" alt="" />
+              </span>
+              <span>
+                <strong>Technion page</strong>
+                <span>Institutional page linked from this site.</span>
+              </span>
             </a>
           </div>
         </section>
